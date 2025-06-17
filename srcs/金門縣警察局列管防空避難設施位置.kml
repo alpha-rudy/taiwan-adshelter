@@ -1,0 +1,5103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>金門縣警察局列管防空避難設施位置</name>
+    <description/>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>金湖分局</name>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 山外車站<br>村里別: 山外里<br>地址: 金門縣金湖鎮山外里黃海路90之2號<br>備註: <br>緯度: 24.442<br>經度: 118.414<br>電腦編號: 1<br>地下樓層數: 1<br>可容納人數: 88人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>山外車站</value>
+          </Data>
+          <Data name="村里別">
+            <value>山外里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮山外里黃海路90之2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44223</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4141028</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>1.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>88人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4141094,24.4422357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金湖鎮公所<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里2鄰林森路2號<br>備註: <br>緯度: 24.441<br>經度: 118.417<br>電腦編號: 2<br>地下樓層數: 1<br>可容納人數: 608人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金湖鎮公所</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里2鄰林森路2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44132</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41701</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>2.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>608人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4170136,24.4413288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金湖消防分隊<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里30鄰士校路2號<br>備註: <br>緯度: 24.444<br>經度: 118.425<br>電腦編號: 3<br>地下樓層數: 1<br>可容納人數: 301人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金湖消防分隊</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里30鄰士校路2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44391</value>
+          </Data>
+          <Data name="經度">
+            <value>118.42528</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>3.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>301人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4252817,24.4439156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 榮民服務處<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里2鄰自強路2之1號<br>備註: <br>緯度: 24.441<br>經度: 118.415<br>電腦編號: 4<br>地下樓層數: 1<br>可容納人數: 160人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>榮民服務處</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里2鄰自強路2之1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44086822</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4154704</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>4.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>160人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4154783,24.4408618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金沙鎮公所<br>村里別: 汶沙里<br>地址: 金門縣金沙鎮汶沙里1鄰環島東路112 號<br>備註: <br>緯度: 24.489<br>經度: 118.413<br>電腦編號: 5<br>地下樓層數: 1<br>可容納人數: 104人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金沙鎮公所</value>
+          </Data>
+          <Data name="村里別">
+            <value>汶沙里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金沙鎮汶沙里1鄰環島東路112 號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.48885</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41303</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>5.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>104人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4130344,24.4888531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金門監獄<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里復興路1之5號<br>備註: <br>緯度: 24.442<br>經度: 118.421<br>電腦編號: 8<br>地下樓層數: 1<br>可容納人數: 83人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門監獄</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里復興路1之5號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44169866</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4207639</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>8.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>83人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4207644,24.4416979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金湖大飯店<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里29鄰太湖路二段198號<br>備註: <br>緯度: 24.439<br>經度: 118.419<br>電腦編號: 9<br>地下樓層數: 1<br>可容納人數: 9667人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金湖大飯店</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里29鄰太湖路二段198號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43926215</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41938</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>9.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>9667人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4193802,24.4392674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金湖國小-勤學樓<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里2鄰林森路12號<br>備註: <br>緯度: 24.442<br>經度: 118.416<br>電腦編號: 11<br>地下樓層數: 1<br>可容納人數: 559人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金湖國小-勤學樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里2鄰林森路12號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44242</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41615</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>11.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>559人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4161506,24.4424289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 山外郵局<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里2鄰林森路39號<br>備註: <br>緯度: 24.442<br>經度: 118.415<br>電腦編號: 12<br>地下樓層數: 1<br>可容納人數: 491人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>山外郵局</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里2鄰林森路39號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44228223</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4153671</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>12.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>491人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4153728,24.4422897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 開瑄國小-新大樓<br>村里別: 瓊林里<br>地址: 金門縣金湖鎮瓊林里瓊林9之1號<br>備註: <br>緯度: 24.446<br>經度: 118.378<br>電腦編號: 13<br>地下樓層數: 1<br>可容納人數: 374人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>開瑄國小-新大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>瓊林里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮瓊林里瓊林9之1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44579</value>
+          </Data>
+          <Data name="經度">
+            <value>118.37772</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>13.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>374人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3777208,24.4457905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 正義里辦公室<br>村里別: 正義里<br>地址: 金門縣金湖鎮正義里成功65之1號<br>備註: <br>緯度: 24.439<br>經度: 118.39<br>電腦編號: 15<br>地下樓層數: 1<br>可容納人數: 333人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>正義里辦公室</value>
+          </Data>
+          <Data name="村里別">
+            <value>正義里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮正義里成功65之1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43902872</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3900248</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>15.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>333人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3900235,24.4390265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金沙國小-行政大樓<br>村里別: 汶沙里<br>地址: 金門縣金沙鎮汶沙里14鄰后浦頭117號<br>備註: <br>緯度: 24.488<br>經度: 118.412<br>電腦編號: 16<br>地下樓層數: 1<br>可容納人數: 244人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金沙國小-行政大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>汶沙里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金沙鎮汶沙里14鄰后浦頭117號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.48848974</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41211</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>16.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>244人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.412118,24.4884854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金湖國小<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里2鄰林森路12號<br>備註: <br>緯度: 24.443<br>經度: 118.416<br>電腦編號: 17<br>地下樓層數: 1<br>可容納人數: 222人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金湖國小</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里2鄰林森路12號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44284352</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41595</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>17.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>222人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4159508,24.4428489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 柏村國小-行政大樓<br>村里別: 料羅里<br>地址: 金門縣金湖鎮料羅里14鄰新塘10號<br>備註: <br>緯度: 24.423<br>經度: 118.438<br>電腦編號: 18<br>地下樓層數: 1<br>可容納人數: 215人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>柏村國小-行政大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>料羅里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮料羅里14鄰新塘10號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.42283818</value>
+          </Data>
+          <Data name="經度">
+            <value>118.43833</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>18.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>215人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.438331,24.4228386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 述美國小-圖資大樓<br>村里別: 西園里<br>地址: 金門縣金沙鎮西園里10鄰沙青路999號<br>備註: <br>緯度: 24.514<br>經度: 118.411<br>電腦編號: 19<br>地下樓層數: 1<br>可容納人數: 213人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>述美國小-圖資大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>西園里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金沙鎮西園里10鄰沙青路999號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.51375674</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41082</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>19.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>213人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4108224,24.5137539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 開瑄國小<br>村里別: 瓊林里<br>地址: 金門縣金湖鎮瓊林里瓊林9之1號<br>備註: <br>緯度: 24.446<br>經度: 118.377<br>電腦編號: 20<br>地下樓層數: 1<br>可容納人數: 197人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>開瑄國小</value>
+          </Data>
+          <Data name="村里別">
+            <value>瓊林里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮瓊林里瓊林9之1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44550707</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3770887</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>20.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>197人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3770964,24.4455197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 台灣工商發展股份有限公司<br>村里別: 瓊林里<br>地址: 金門縣金湖鎮瓊林里中山路8之6號<br>備註: <br>緯度: 24.442<br>經度: 118.363<br>電腦編號: 21<br>地下樓層數: 1<br>可容納人數: 167人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>台灣工商發展股份有限公司</value>
+          </Data>
+          <Data name="村里別">
+            <value>瓊林里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮瓊林里中山路8之6號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44161</value>
+          </Data>
+          <Data name="經度">
+            <value>118.36299</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>21.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>167人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3629964,24.4416114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 正義國小<br>村里別: 正義里<br>地址: 金門縣金湖鎮正義里11鄰成功129號<br>備註: <br>緯度: 24.44<br>經度: 118.388<br>電腦編號: 22<br>地下樓層數: 1<br>可容納人數: 167人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>正義國小</value>
+          </Data>
+          <Data name="村里別">
+            <value>正義里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮正義里11鄰成功129號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43997</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3878627</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>22.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>167人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3878684,24.4399733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 安瀾國小<br>村里別: 三山里<br>地址: 金門縣金沙鎮三山里13鄰碧山81號<br>備註: <br>緯度: 24.482<br>經度: 118.438<br>電腦編號: 23<br>地下樓層數: 1<br>可容納人數: 56人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>安瀾國小</value>
+          </Data>
+          <Data name="村里別">
+            <value>三山里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金沙鎮三山里13鄰碧山81號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.48248</value>
+          </Data>
+          <Data name="經度">
+            <value>118.43784</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>23.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>56人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.437841,24.482486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金閣會館大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰市港三路231號<br>備註: <br>緯度: 24.439<br>經度: 118.411<br>電腦編號: 24<br>地下樓層數: 2<br>可容納人數: 2027人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金閣會館大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰市港三路231號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43869998</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41072</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>24.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>2027人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4107211,24.4386909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 樸樂大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰市港六路231號<br>備註: <br>緯度: 24.44<br>經度: 118.411<br>電腦編號: 25<br>地下樓層數: 2<br>可容納人數: 2027人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>樸樂大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰市港六路231號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44004786</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4114134</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>25.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>2027人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4114053,24.440041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: SOLLIS大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里29鄰市港五路168號<br>備註: <br>緯度: 24.439<br>經度: 118.413<br>電腦編號: 26<br>地下樓層數: 2<br>可容納人數: 616人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>SOLLIS大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里29鄰市港五路168號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43869203</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41259</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>26.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>616人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4125904,24.4386922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 崑庭建設大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里29鄰市港五路163號1樓之1<br>備註: <br>緯度: 24.439<br>經度: 118.413<br>電腦編號: 27<br>地下樓層數: 1<br>可容納人數: 567人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>崑庭建設大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里29鄰市港五路163號1樓之1</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43855273</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4125673</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>27.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>567人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.412563,24.4385501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 鴻偉大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里29鄰市港三路156號<br>備註: <br>緯度: 24.438<br>經度: 118.412<br>電腦編號: 28<br>地下樓層數: 1<br>可容納人數: 563人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>鴻偉大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里29鄰市港三路156號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43825</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41242</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>28.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>563人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4124285,24.4382562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里1鄰市港五路172號<br>備註: <br>緯度: 24.439<br>經度: 118.412<br>電腦編號: 29<br>地下樓層數: 2<br>可容納人數: 517人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里1鄰市港五路172號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4387631</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41241</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>29.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>517人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4124173,24.4387655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里1鄰市港三路145號<br>備註: <br>緯度: 24.438<br>經度: 118.412<br>電腦編號: 30<br>地下樓層數: 1<br>可容納人數: 500人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里1鄰市港三路145號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43789045</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4119981</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>30.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>500人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4119963,24.4379049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 大樓<br>村里別: 蓮庵里<br>地址: 金門縣金湖鎮蓮庵里三谿橋3-6號<br>備註: <br>緯度: 24.431<br>經度: 118.432<br>電腦編號: 31<br>地下樓層數: 1<br>可容納人數: 483人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>蓮庵里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮蓮庵里三谿橋3-6號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43122</value>
+          </Data>
+          <Data name="經度">
+            <value>118.43159</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>31.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>483人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4315954,24.4312271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰市港五路176號<br>備註: <br>緯度: 24.439<br>經度: 118.412<br>電腦編號: 32<br>地下樓層數: 1<br>可容納人數: 464人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰市港五路176號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43884857</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41224</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>32.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>464人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.412245,24.438841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 雙城匯大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里29鄰市港五路151號<br>備註: <br>緯度: 24.438<br>經度: 118.413<br>電腦編號: 33<br>地下樓層數: 1<br>可容納人數: 450人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>雙城匯大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里29鄰市港五路151號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43833494</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4126247</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>33.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>450人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4126077,24.4383039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 樺翔建設大樓<br>村里別: 浦山里<br>地址: 金門縣金沙鎮浦山里19鄰洋山202號<br>備註: <br>緯度: 24.489<br>經度: 118.398<br>電腦編號: 34<br>地下樓層數: 1<br>可容納人數: 408人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>樺翔建設大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>浦山里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金沙鎮浦山里19鄰洋山202號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.48896</value>
+          </Data>
+          <Data name="經度">
+            <value>118.39754</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>34.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>408人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3975465,24.4889676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 崑庭風荷大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里28鄰市港三路163號<br>備註: <br>緯度: 24.438<br>經度: 118.412<br>電腦編號: 35<br>地下樓層數: 1<br>可容納人數: 361人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>崑庭風荷大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里28鄰市港三路163號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43811578</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4122076</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>35.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>361人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4122049,24.4381047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 福喜居大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里28鄰市港三路167號<br>備註: <br>緯度: 24.438<br>經度: 118.412<br>電腦編號: 36<br>地下樓層數: 1<br>可容納人數: 290人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>福喜居大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里28鄰市港三路167號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43826637</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4119608</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>36.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>290人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4119619,24.4382669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 崑庭風鎮大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰市港三路235號<br>備註: <br>緯度: 24.439<br>經度: 118.411<br>電腦編號: 37<br>地下樓層數: 1<br>可容納人數: 284人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>崑庭風鎮大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰市港三路235號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43891438</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4107243</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>37.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>284人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4107097,24.4389027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 京門社區大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里31鄰赤東路19號之1<br>備註: <br>緯度: 24.441<br>經度: 118.412<br>電腦編號: 38<br>地下樓層數: 1<br>可容納人數: 243人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>京門社區大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里31鄰赤東路19號之1</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44124</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41178</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>38.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>243人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4117859,24.4412493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 崑庭風尚大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里1鄰市港五路138號之1<br>備註: <br>緯度: 24.439<br>經度: 118.413<br>電腦編號: 39<br>地下樓層數: 1<br>可容納人數: 225人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>崑庭風尚大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里1鄰市港五路138號之1</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.438975</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4128151</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>39.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>225人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4128022,24.4390085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 崑庭社區大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里1鄰市港三路137號<br>備註: <br>緯度: 24.438<br>經度: 118.412<br>電腦編號: 40<br>地下樓層數: 1<br>可容納人數: 223人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>崑庭社區大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里1鄰市港三路137號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.437848</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41186</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>40.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>223人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4118695,24.4378408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 景美公寓大廈<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰市港路138號<br>備註: <br>緯度: 24.438<br>經度: 118.411<br>電腦編號: 41<br>地下樓層數: 1<br>可容納人數: 221人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>景美公寓大廈</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰市港路138號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43793</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4114139</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>41.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>221人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4114152,24.4379332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰赤東路68號<br>備註: <br>緯度: 24.44<br>經度: 118.411<br>電腦編號: 42<br>地下樓層數: 1<br>可容納人數: 198人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰赤東路68號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44025174</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4112134</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>42.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>198人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4112194,24.4402572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 英沐建設大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰市港三路243號<br>備註: <br>緯度: 24.439<br>經度: 118.411<br>電腦編號: 43<br>地下樓層數: 1<br>可容納人數: 137人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>英沐建設大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰市港三路243號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43883</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4107</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>43.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>137人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4103724,24.4388312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 金合成建設大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里5鄰市港路162號<br>備註: <br>緯度: 24.438<br>經度: 118.412<br>電腦編號: 44<br>地下樓層數: 1<br>可容納人數: 126人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金合成建設大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里5鄰市港路162號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43817922</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4115864</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>44.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>126人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4115835,24.4381718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 尚達建設大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里1鄰赤東路150號<br>備註: <br>緯度: 24.439<br>經度: 118.41<br>電腦編號: 45<br>地下樓層數: 1<br>可容納人數: 117人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>尚達建設大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里1鄰赤東路150號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4388461</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4102862</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>45.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>117人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4102867,24.4388403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 大樓<br>村里別: 新市里<br>地址: 金門縣金湖鎮新市里22鄰市港六路110號1樓<br>備註: <br>緯度: 24.439<br>經度: 118.415<br>電腦編號: 46<br>地下樓層數: 1<br>可容納人數: 76人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新市里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新市里22鄰市港六路110號1樓</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43912</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41527</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>46.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>76人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.415276,24.4391241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 緊急避難所<br>村里別: 山外里<br>地址: 金門縣金湖鎮山外里山外80-3號<br>備註: <br>緯度: 24.446<br>經度: 118.415<br>電腦編號: 47<br>地下樓層數: 1<br>可容納人數: 497人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>緊急避難所</value>
+          </Data>
+          <Data name="村里別">
+            <value>山外里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮山外里山外80-3號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44564</value>
+          </Data>
+          <Data name="經度">
+            <value>118.4151345</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>47.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>497人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.415134,24.445641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 福喜閣大樓<br>村里別: 新湖里<br>地址: 金門縣金湖鎮新湖里28鄰市港路128號<br>備註: <br>緯度: 24.438<br>經度: 118.411<br>電腦編號: 48<br>地下樓層數: 1<br>可容納人數: 145人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>福喜閣大樓</value>
+          </Data>
+          <Data name="村里別">
+            <value>新湖里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金湖鎮新湖里28鄰市港路128號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43772</value>
+          </Data>
+          <Data name="經度">
+            <value>118.41122</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>48.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>145人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4112264,24.4377246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金湖分局</name>
+        <description><![CDATA[類別: 多年國小-幼兒園及專科教室<br>村里別: 大洋里<br>地址: 金門縣金沙鎮大洋里環島東路四段600號<br>備註: <br>緯度: 24.452<br>經度: 118.454<br>電腦編號: 49<br>地下樓層數: 1<br>可容納人數: 177人]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>多年國小-幼兒園及專科教室</value>
+          </Data>
+          <Data name="村里別">
+            <value>大洋里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金沙鎮大洋里環島東路四段600號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45235</value>
+          </Data>
+          <Data name="經度">
+            <value>118.45439</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>49.0</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>177人</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.4543938,24.4523503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>金城分局</name>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門縣警察局<br>電腦編號: 700<br>村里別: 東門里<br>地址: 金門縣金城鎮金山路15號<br>備註: <br>緯度: 24.429<br>經度: 118.323<br>地下樓層數: 1<br>可容納人數: 2303]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門縣警察局</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>700.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>東門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮金山路15號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.42873786</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3225747</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>2303.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3225768,24.4287694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 西門里公所<br>電腦編號: 701<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路90-6號<br>備註: <br>緯度: 24.434<br>經度: 118.312<br>地下樓層數: 1<br>可容納人數: 50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>西門里公所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>701.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路90-6號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43386</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31236</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>50.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3146095,24.4333077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門高中藝文中心<br>電腦編號: 702<br>村里別: 西門里<br>地址: 金門縣金城鎮光前路94號<br>備註: <br>緯度: 24.435<br>經度: 118.314<br>地下樓層數: 1<br>可容納人數: 366]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門高中藝文中心</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>702.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮光前路94號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43515</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31406</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>366.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3143009,24.4361702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門高中人事室<br>電腦編號: 703<br>村里別: 西門里<br>地址: 金門縣金城鎮光前路94號<br>備註: <br>緯度: 24.435<br>經度: 118.314<br>地下樓層數: 1<br>可容納人數: 471]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門高中人事室</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>703.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮光前路94號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43515</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31406</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>471.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3144484,24.4349126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門高中科學大樓<br>電腦編號: 704<br>村里別: 西門里<br>地址: 金門縣金城鎮光前路94號<br>備註: <br>緯度: 24.435<br>經度: 118.314<br>地下樓層數: 1<br>可容納人數: 463]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門高中科學大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>704.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮光前路94號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43515</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31406</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>463.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3140461,24.4359285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門高中生活科技館<br>電腦編號: 705<br>村里別: 西門里<br>地址: 金門縣金城鎮光前路94號<br>備註: <br>緯度: 24.435<br>經度: 118.314<br>地下樓層數: 1<br>可容納人數: 246]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門高中生活科技館</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>705.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮光前路94號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43515</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31406</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>246.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3144753,24.4358821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 中正國小行政樓<br>電腦編號: 706<br>村里別: 西門里<br>地址: 金門縣金城鎮珠浦北路38號<br>備註: <br>緯度: 24.435<br>經度: 118.317<br>地下樓層數: 1<br>可容納人數: 777]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>中正國小行政樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>706.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮珠浦北路38號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43478</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31687</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>777.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3171427,24.4350461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 中正國小專科教室<br>電腦編號: 707<br>村里別: 西門里<br>地址: 金門縣金城鎮珠浦北路38號<br>備註: <br>緯度: 24.435<br>經度: 118.317<br>地下樓層數: 1<br>可容納人數: 666]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>中正國小專科教室</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>707.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮珠浦北路38號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43478</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31687</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>666.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3176993,24.4348459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門縣文化局<br>電腦編號: 708<br>村里別: 西門里<br>地址: 金門縣金城鎮環島北路66號<br>備註: <br>緯度: 24.442<br>經度: 118.323<br>地下樓層數: 1<br>可容納人數: 88]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門縣文化局</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>708.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮環島北路66號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44153</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32302</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>88.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3231181,24.4404408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金城衛生所<br>電腦編號: 709<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路147號<br>備註: <br>緯度: 24.436<br>經度: 118.318<br>地下樓層數: 1<br>可容納人數: 25]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金城衛生所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>709.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路147號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43632</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31779</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>25.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3178122,24.4363146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門地方法院<br>電腦編號: 710<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路178號<br>備註: <br>緯度: 24.438<br>經度: 118.319<br>地下樓層數: 1<br>可容納人數: 44]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門地方法院</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>710.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路178號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43771</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31853</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>44.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.318438,24.4376282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門縣稅務局<br>電腦編號: 712<br>村里別: 南門里<br>地址: 金門縣金城鎮民族路328號<br>備註: <br>緯度: 24.431<br>經度: 118.314<br>地下樓層數: 1<br>可容納人數: 5]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門縣稅務局</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>712.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>南門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民族路328號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43117</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3139</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>5.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3138488,24.4311096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 莒光樓<br>電腦編號: 713<br>村里別: 南門里<br>地址: 金門縣金城鎮賢城路1號<br>備註: <br>緯度: 24.434<br>經度: 118.319<br>地下樓層數: 1<br>可容納人數: 66]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>莒光樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>713.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>南門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮賢城路1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43376</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31884</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>66.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.319444,24.4252861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金城國中<br>電腦編號: 714<br>村里別: 南門里<br>地址: 金門縣金城鎮民權路32號<br>備註: <br>緯度: 24.431<br>經度: 118.313<br>地下樓層數: 1<br>可容納人數: 741]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金城國中</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>714.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>南門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路32號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43146</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31301</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>741.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.312997,24.4323456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 行政院金馬聯合服務中心<br>電腦編號: 715<br>村里別: 南門里<br>地址: 金門縣金城鎮民權路34號<br>備註: <br>緯度: 24.436<br>經度: 118.317<br>地下樓層數: 1<br>可容納人數: 222]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>行政院金馬聯合服務中心</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>715.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>南門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路34號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43608</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31739</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>222.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3108027,24.4319166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金城鎮公所<br>電腦編號: 716<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里民生路2號<br>備註: <br>緯度: 24.436<br>經度: 118.318<br>地下樓層數: 1<br>可容納人數: 173]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金城鎮公所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>716.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里民生路2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43644</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31817</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>173.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3206117,24.432814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金城車站<br>電腦編號: 717<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里民生路7號<br>備註: <br>緯度: 24.434<br>經度: 118.32<br>地下樓層數: 1<br>可容納人數: 861]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金城車站</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>717.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里民生路7號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43412</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31965</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>861.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.32018,24.4330199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金城幼兒園 <br>電腦編號: 718<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里民生路38號<br>備註: <br>緯度: 24.435<br>經度: 118.32<br>地下樓層數: 1<br>可容納人數: 166]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金城幼兒園 </value>
+          </Data>
+          <Data name="電腦編號">
+            <value>718.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里民生路38號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43549</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31964</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>166.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.319774,24.4355784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金城分局<br>電腦編號: 719<br>村里別: 北門里<br>地址: 金門縣金城鎮民生路54巷1號<br>備註: <br>緯度: 24.436<br>經度: 118.319<br>地下樓層數: 1<br>可容納人數: 694]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金城分局</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>719.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民生路54巷1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4365</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31947</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>694.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3194699,24.4365284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 賢庵國小<br>電腦編號: 720<br>村里別: 賢庵里<br>地址: 金門縣金城鎮賢庵里13鄰庵前18-2號<br>備註: <br>緯度: 24.448<br>經度: 118.338<br>地下樓層數: 1<br>可容納人數: 148]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>賢庵國小</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>720.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>賢庵里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮賢庵里13鄰庵前18-2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44758</value>
+          </Data>
+          <Data name="經度">
+            <value>118.33829</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>148.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3190289,24.4178161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 官裡社區發展協會 <br>電腦編號: 721<br>村里別: 賢庵里<br>地址: 金門縣金城鎮賢庵里14鄰官裡1-1號<br>備註: <br>緯度: 24.438<br>經度: 118.317<br>地下樓層數: 1<br>可容納人數: 157]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>官裡社區發展協會 </value>
+          </Data>
+          <Data name="電腦編號">
+            <value>721.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>賢庵里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮賢庵里14鄰官裡1-1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43806</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31743</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>157.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3178121,24.411646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門縣港務處 <br>電腦編號: 722<br>村里別: 金水里<br>地址: 金門縣金城鎮金水里西海路一段5號<br>備註: <br>緯度: 24.412<br>經度: 118.298<br>地下樓層數: 1<br>可容納人數: 2248]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門縣港務處 </value>
+          </Data>
+          <Data name="電腦編號">
+            <value>722.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>金水里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮金水里西海路一段5號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.41226</value>
+          </Data>
+          <Data name="經度">
+            <value>118.2981</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>2248.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2867478,24.4153752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 古城國民小學<br>電腦編號: 723<br>村里別: 古城里<br>地址: 金門縣金城鎮古城里大古崗100號<br>備註: <br>緯度: 24.433<br>經度: 118.321<br>地下樓層數: 1<br>可容納人數: 22]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>古城國民小學</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>723.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>古城里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮古城里大古崗100號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43282</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32063</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3124279,24.4017539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 古城辦公處所 <br>電腦編號: 724<br>村里別: 古城里<br>地址: 金門縣金城鎮古城里小古崗40-1號<br>備註: <br>緯度: 24.431<br>經度: 118.319<br>地下樓層數: 1<br>可容納人數: 22]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>古城辦公處所 </value>
+          </Data>
+          <Data name="電腦編號">
+            <value>724.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>古城里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮古城里小古崗40-1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43137</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31866</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3164406,24.3979688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門酒廠<br>電腦編號: 725<br>村里別: 古城里<br>地址: 金門縣金城鎮古城里金門城68號<br>備註: <br>緯度: 24.433<br>經度: 118.321<br>地下樓層數: 1<br>可容納人數: 177]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門酒廠</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>725.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>古城里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮古城里金門城68號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43282</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32063</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>177.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3045856,24.3991634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門酒廠<br>電腦編號: 726<br>村里別: 榜林村<br>地址: 金門縣金寧鄉榜林村13鄰桃園路1號<br>備註: <br>緯度: 24.437<br>經度: 118.354<br>地下樓層數: 2<br>可容納人數: 55]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門酒廠</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>726.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>榜林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉榜林村13鄰桃園路1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43709</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3536</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>55.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3419691,24.4312764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金鼎國小<br>電腦編號: 727<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村9鄰下堡123號<br>備註: <br>緯度: 24.448<br>經度: 118.34<br>地下樓層數: 1<br>可容納人數: 222]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金鼎國小</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>727.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村9鄰下堡123號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44784</value>
+          </Data>
+          <Data name="經度">
+            <value>118.34022</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>222.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3374932,24.4481314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金寧中小學<br>電腦編號: 730<br>村里別: 安美村<br>地址: 金門縣金寧鄉安美村10鄰安岐1號<br>備註: <br>緯度: 24.458<br>經度: 118.328<br>地下樓層數: 1<br>可容納人數: 1000]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金寧中小學</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>730.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>安美村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉安美村10鄰安岐1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45798027</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3280664</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>1000.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.326923,24.4567342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 后盤村公所<br>電腦編號: 732<br>村里別: 后盤村<br>地址: 金門縣金寧鄉后盤村2鄰后盤山33號<br>備註: <br>緯度: 24.438<br>經度: 118.345<br>地下樓層數: 1<br>可容納人數: 111]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>后盤村公所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>732.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>后盤村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉后盤村2鄰后盤山33號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43825</value>
+          </Data>
+          <Data name="經度">
+            <value>118.34488</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>111.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3529908,24.4507484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門大學<br>電腦編號: 733<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村23鄰大學路1號<br>備註: <br>緯度: 24.445<br>經度: 118.327<br>地下樓層數: 1<br>可容納人數: 2222]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門大學</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>733.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村23鄰大學路1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44517</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32669</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>2222.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3225115,24.4482388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金寧鄉公所<br>電腦編號: 734<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村18鄰仁愛新村1號<br>備註: <br>緯度: 24.451<br>經度: 118.335<br>地下樓層數: 1<br>可容納人數: 364]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金寧鄉公所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>734.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村18鄰仁愛新村1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45096</value>
+          </Data>
+          <Data name="經度">
+            <value>118.33488</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>364.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3348727,24.4509376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金寧分駐所<br>電腦編號: 735<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村18鄰仁愛新村2號<br>備註: <br>緯度: 24.451<br>經度: 118.335<br>地下樓層數: 1<br>可容納人數: 222]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金寧分駐所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>735.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村18鄰仁愛新村2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45143964</value>
+          </Data>
+          <Data name="經度">
+            <value>118.335299</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>222.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3353395,24.4513835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金寧衛生所<br>電腦編號: 736<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村18鄰仁愛新村2-1號<br>備註: <br>緯度: 24.451<br>經度: 118.335<br>地下樓層數: 1<br>可容納人數: 222]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金寧衛生所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>736.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村18鄰仁愛新村2-1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45119941</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3350622</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>222.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3351476,24.4511698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門地政局<br>電腦編號: 737<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村18鄰仁愛新村3號<br>備註: <br>緯度: 24.45<br>經度: 118.334<br>地下樓層數: 1<br>可容納人數: 111]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門地政局</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>737.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村18鄰仁愛新村3號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45041</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3344</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>111.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3341438,24.4505792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 更生保護會<br>電腦編號: 738<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村18鄰仁愛新村5號<br>備註: <br>緯度: 24.452<br>經度: 118.335<br>地下樓層數: 1<br>可容納人數: 377]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>更生保護會</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>738.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村18鄰仁愛新村5號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45182054</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3349296</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>377.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3349237,24.4517763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 烈嶼分駐所<br>電腦編號: 739<br>村里別: 林湖村<br>地址: 金門縣烈嶼鄉林湖村西路37號<br>備註: <br>緯度: 24.446<br>經度: 118.252<br>地下樓層數: 1<br>可容納人數: 55]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>烈嶼分駐所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>739.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>林湖村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉林湖村西路37號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44594</value>
+          </Data>
+          <Data name="經度">
+            <value>118.25209</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>55.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2426318,24.4331429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 卓環國小<br>電腦編號: 740<br>村里別: 林湖村<br>地址: 金門縣烈嶼鄉林湖村西路23號<br>備註: <br>緯度: 24.432<br>經度: 118.246<br>地下樓層數: 1<br>可容納人數: 7]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>卓環國小</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>740.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>林湖村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉林湖村西路23號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43150139</value>
+          </Data>
+          <Data name="經度">
+            <value>118.2464006</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2464052,24.4316008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 烈嶼公車站<br>電腦編號: 741<br>村里別: 林湖村<br>地址: 金門縣烈嶼鄉林湖村湖下35號<br>備註: <br>緯度: 24.427<br>經度: 118.257<br>地下樓層數: 1<br>可容納人數: 22]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>烈嶼公車站</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>741.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>林湖村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉林湖村湖下35號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.42691517</value>
+          </Data>
+          <Data name="經度">
+            <value>118.2571147</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2571137,24.4268721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 烈嶼鄉公所<br>電腦編號: 742<br>村里別: 林湖村<br>地址: 金門縣烈嶼鄉林湖村西路60號<br>備註: <br>緯度: 24.438<br>經度: 118.243<br>地下樓層數: 1<br>可容納人數: 1041]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>烈嶼鄉公所</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>742.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>林湖村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉林湖村西路60號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43844</value>
+          </Data>
+          <Data name="經度">
+            <value>118.24342</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>1041.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2446368,24.4295676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 西口國小<br>電腦編號: 745<br>村里別: 西口村<br>地址: 金門縣烈嶼鄉西口村西方69號<br>備註: <br>緯度: 24.411<br>經度: 118.299<br>地下樓層數: 1<br>可容納人數: 40]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>西口國小</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>745.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西口村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉西口村西方69號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.41097</value>
+          </Data>
+          <Data name="經度">
+            <value>118.29851</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>40.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2376545,24.4365806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 署立金門醫院烈嶼分院<br>電腦編號: 746<br>村里別: 上林村<br>地址: 金門縣烈嶼鄉上林村后井37號<br>備註: <br>緯度: 24.435<br>經度: 118.237<br>地下樓層數: 1<br>可容納人數: 66]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>署立金門醫院烈嶼分院</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>746.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>上林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉上林村后井37號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43482</value>
+          </Data>
+          <Data name="經度">
+            <value>118.23731</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>66.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2425398,24.4308793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 烈嶼國中<br>電腦編號: 747<br>村里別: 上林村<br>地址: 金門縣烈嶼鄉上林村后井38號<br>備註: <br>緯度: 24.432<br>經度: 118.243<br>地下樓層數: 1<br>可容納人數: 146]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>烈嶼國中</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>747.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>上林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉上林村后井38號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43221</value>
+          </Data>
+          <Data name="經度">
+            <value>118.2435</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>146.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2412286,24.4309064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 上岐國小<br>電腦編號: 749<br>村里別: 上岐村<br>地址: 金門縣烈嶼鄉上岐村青岐123號<br>備註: <br>緯度: 24.421<br>經度: 118.235<br>地下樓層數: 1<br>可容納人數: 11]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>上岐國小</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>749.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>上岐村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣烈嶼鄉上岐村青岐123號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.42101</value>
+          </Data>
+          <Data name="經度">
+            <value>118.23492</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>11.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.2288484,24.4149374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 海福飯店<br>電腦編號: 751<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路85號<br>備註: <br>緯度: 24.439<br>經度: 118.32<br>地下樓層數: 1<br>可容納人數: 141]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>海福飯店</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>751.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路85號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43887</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31972</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>141.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3150802,24.4334645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金帝飯店<br>電腦編號: 752<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路107號<br>備註: <br>緯度: 24.434<br>經度: 118.316<br>地下樓層數: 1<br>可容納人數: 107]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金帝飯店</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>752.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路107號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4339</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31554</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>107.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3153726,24.4337243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 新華僑之家<br>電腦編號: 753<br>村里別: 西門里<br>地址: 金門縣金城鎮光前路147號<br>備註: <br>緯度: 24.436<br>經度: 118.313<br>地下樓層數: 1<br>可容納人數: 132]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>新華僑之家</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>753.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮光前路147號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43582</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31278</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>132.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3127576,24.4357817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 外武廟管理委員會<br>電腦編號: 754<br>村里別: 西門里<br>地址: 金門縣金城鎮光前路72號<br>備註: <br>緯度: 24.433<br>經度: 118.315<br>地下樓層數: 1<br>可容納人數: 111]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>外武廟管理委員會</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>754.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮光前路72號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43301</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31542</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>111.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.314639,24.4329183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 華欣商務旅館<br>電腦編號: 755<br>村里別: 西門里<br>地址: 金門縣金城鎮莒光路156號之2<br>備註: <br>緯度: 24.434<br>經度: 118.316<br>地下樓層數: 1<br>可容納人數: 95]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>華欣商務旅館</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>755.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮莒光路156號之2</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43355</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31632</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>95.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3163051,24.4335788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 臺灣中小型企業銀行<br>電腦編號: 756<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路116號<br>備註: <br>緯度: 24.436<br>經度: 118.317<br>地下樓層數: 1<br>可容納人數: 257]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>臺灣中小型企業銀行</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>756.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路116號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43608</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31739</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>257.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3166019,24.4354225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 中華電信<br>電腦編號: 757<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路182號<br>備註: <br>緯度: 24.437<br>經度: 118.318<br>地下樓層數: 1<br>可容納人數: 555]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>中華電信</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>757.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路182號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43673</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31755</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>555.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3190702,24.4381722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金瑞飯店<br>電腦編號: 758<br>村里別: 西門里<br>地址: 金門縣金城鎮民權路166號<br>備註: <br>緯度: 24.437<br>經度: 118.318<br>地下樓層數: 1<br>可容納人數: 111]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金瑞飯店</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>758.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民權路166號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43686</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31805</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>111.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3179299,24.4368408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大同之家<br>電腦編號: 759<br>村里別: 西門里<br>地址: 金門縣金城鎮民生路72號<br>備註: <br>緯度: 24.435<br>經度: 118.318<br>地下樓層數: 1<br>可容納人數: 55]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大同之家</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>759.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮民生路72號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43474</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31795</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>55.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3178927,24.4388654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金信大樓<br>電腦編號: 761<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里民生路25號<br>備註: <br>緯度: 24.435<br>經度: 118.319<br>地下樓層數: 2<br>可容納人數: 416]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金信大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>761.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里民生路25號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43482</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31948</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>416.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3193461,24.4345863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: IN99飯店<br>電腦編號: 762<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里民生路16號<br>備註: <br>緯度: 24.434<br>經度: 118.32<br>地下樓層數: 1<br>可容納人數: 72]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>IN99飯店</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>762.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里民生路16號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43442</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31979</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>72.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.319904,24.4344746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 群力建設開發有限公司<br>電腦編號: 763<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里中興路205巷2號<br>備註: <br>緯度: 24.434<br>經度: 118.319<br>地下樓層數: 2<br>可容納人數: 360]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>群力建設開發有限公司</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>763.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里中興路205巷2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43427</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31877</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>360.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3202802,24.4347293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 浯江飯店<br>電腦編號: 764<br>村里別: 賢庵里<br>地址: 金門縣金城鎮賢庵里西海路三段100號<br>備註: <br>緯度: 24.422<br>經度: 118.311<br>地下樓層數: 1<br>可容納人數: 222]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>浯江飯店</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>764.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>賢庵里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮賢庵里西海路三段100號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.42233</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31131</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>222.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.311342,24.4224112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金芬芳股份有限公司<br>電腦編號: 765<br>村里別: 賢庵里<br>地址: 金門縣金城鎮賢庵里16鄰古區2-2號<br>備註: <br>緯度: 24.408<br>經度: 118.313<br>地下樓層數: 1<br>可容納人數: 217]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金芬芳股份有限公司</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>765.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>賢庵里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮賢庵里16鄰古區2-2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.40847332</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3132114</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>217.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3131674,24.4083173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 767<br>村里別: 西門里<br>地址: 金門縣金城鎮西門里民權路226巷2弄11號<br>備註: <br>緯度: 24.438<br>經度: 118.329<br>地下樓層數: 1<br>可容納人數: 721]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>767.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮西門里民權路226巷2弄11號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43782</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32859</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>721.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3193474,24.4393295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金城聯<br>電腦編號: 769<br>村里別: 榜林村<br>地址: 金門縣金寧鄉榜林村29鄰伯玉路一段232號<br>備註: <br>緯度: 24.436<br>經度: 118.328<br>地下樓層數: 1<br>可容納人數: 23]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金城聯</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>769.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>榜林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉榜林村29鄰伯玉路一段232號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43627</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32788</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>23.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3280238,24.4368692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 陸島酒店<br>電腦編號: 770<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村19鄰下埔下90號<br>備註: <br>緯度: 24.437<br>經度: 118.328<br>地下樓層數: 1<br>可容納人數: 55]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>陸島酒店</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>770.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村19鄰下埔下90號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43687</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32798</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>55.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3135575,24.4403658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 950<br>村里別: 西門里<br>地址: 金門縣金城鎮西門里珠浦北路46號之2<br>備註: <br>緯度: 24.464<br>經度: 118.325<br>地下樓層數: 1<br>可容納人數: 145]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>950.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮西門里珠浦北路46號之2</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.46392</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32451</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>145.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3166317,24.43426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 951<br>村里別: 東門里<br>地址: 金門縣金城鎮東門里浯江北堤路31號<br>備註: <br>緯度: 24.434<br>經度: 118.316<br>地下樓層數: 1<br>可容納人數: 135]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>951.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>東門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮東門里浯江北堤路31號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43435</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31646</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>135.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3202664,24.4297657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 952<br>村里別: 南門里<br>地址: 金門縣金城鎮南門里民族路199號<br>備註: <br>緯度: 24.429<br>經度: 118.316<br>地下樓層數: 1<br>可容納人數: 188]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>952.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>南門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮南門里民族路199號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.42932</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31623</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>188.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.317055,24.4301405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 953<br>村里別: 南門里<br>地址: 金門縣金城鎮南門里光前路39號之6<br>備註: <br>緯度: 24.43<br>經度: 118.317<br>地下樓層數: 1<br>可容納人數: 58]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>953.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>南門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮南門里光前路39號之6</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43014</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31699</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>58.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3157722,24.4325555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 寶雅<br>電腦編號: 955<br>村里別: 榜林村<br>地址: 金門縣金寧鄉榜林村伯玉路一段232-2號<br>備註: <br>緯度: 24.434<br>經度: 118.312<br>地下樓層數: 1<br>可容納人數: 473]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>寶雅</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>955.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>榜林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉榜林村伯玉路一段232-2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43413</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31246</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>473.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3281598,24.4370596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 956<br>村里別: 西門里<br>地址: 金門縣金城鎮西門里民權路202號<br>備註: <br>緯度: 24.436<br>經度: 118.328<br>地下樓層數: 1<br>可容納人數: 158]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>956.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮西門里民權路202號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43627</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32788</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>158.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3198576,24.4389594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 957<br>村里別: 西門里<br>地址: 金門縣金城鎮西門里民權路226巷4弄10號<br>備註: <br>緯度: 24.436<br>經度: 118.317<br>地下樓層數: 1<br>可容納人數: 114]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>957.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮西門里民權路226巷4弄10號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43608</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31739</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>114.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3193011,24.4397147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 958<br>村里別: 榜林村<br>地址: 金門縣金寧鄉榜林村伯玉路一段234-1號<br>備註: <br>緯度: 24.433<br>經度: 118.312<br>地下樓層數: 1<br>可容納人數: 300]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>958.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>榜林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉榜林村伯玉路一段234-1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43337</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31241</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>300.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3287358,24.4379349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 959<br>村里別: 東門里<br>地址: 金門縣金城鎮東門里民族路93巷5弄17號<br>備註: <br>緯度: 24.433<br>經度: 118.325<br>地下樓層數: 1<br>可容納人數: 165]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>959.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>東門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮東門里民族路93巷5弄17號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43324</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32493</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>165.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3199972,24.4299668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 寶雅<br>電腦編號: 960<br>村里別: 榜林村<br>地址: 金門縣金寧鄉榜林村伯玉路一段232-3號<br>備註: <br>緯度: 24.434<br>經度: 118.312<br>地下樓層數: 1<br>可容納人數: 473]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>寶雅</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>960.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>榜林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉榜林村伯玉路一段232-3號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43384</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31195</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>473.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.328226,24.4371581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 962<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村頂堡5-9號<br>備註: <br>緯度: 24.447<br>經度: 118.341<br>地下樓層數: 1<br>可容納人數: 350]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>962.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村頂堡5-9號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44742</value>
+          </Data>
+          <Data name="經度">
+            <value>118.34083</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>350.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.340638,24.4475239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 湖埔國小<br>電腦編號: 963<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村湖下196號<br>備註: <br>緯度: 24.432<br>經度: 118.33<br>地下樓層數: 1<br>可容納人數: 350]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>湖埔國小</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>963.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村湖下196號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4322</value>
+          </Data>
+          <Data name="經度">
+            <value>118.33032</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>350.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3082422,24.4567196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 964<br>村里別: 榜林村<br>地址: 金門縣金寧鄉榜林村伯玉路一段234號<br>備註: <br>緯度: 24.438<br>經度: 118.329<br>地下樓層數: 1<br>可容納人數: 284]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>964.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>榜林村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉榜林村伯玉路一段234號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43764</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32877</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>284.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3286822,24.4378384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門縣議會<br>電腦編號: 965<br>村里別: 東門里<br>地址: 金門縣金城鎮東門里金山路17之2號<br>備註: <br>緯度: 24.428<br>經度: 118.323<br>地下樓層數: 1<br>可容納人數: 644]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門縣議會</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>965.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>東門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮東門里金山路17之2號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.42829</value>
+          </Data>
+          <Data name="經度">
+            <value>118.32304</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>644.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3225976,24.428206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 966<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村湖峰一街8號<br>備註: <br>緯度: 24.453<br>經度: 118.305<br>地下樓層數: 1<br>可容納人數: 133]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>966.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村湖峰一街8號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45251</value>
+          </Data>
+          <Data name="經度">
+            <value>118.30497</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>133.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3068043,24.4510547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 967<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村6鄰湖下293號<br>備註: <br>緯度: 24.458<br>經度: 118.305<br>地下樓層數: 1<br>可容納人數: 1279]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>967.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村6鄰湖下293號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45804</value>
+          </Data>
+          <Data name="經度">
+            <value>118.30545</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>1279.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3069263,24.4548515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 968<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里5鄰珠浦北路29巷6號<br>備註: <br>緯度: 24.434<br>經度: 118.318<br>地下樓層數: 1<br>可容納人數: 282]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>968.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里5鄰珠浦北路29巷6號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43378</value>
+          </Data>
+          <Data name="經度">
+            <value>118.3179</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>282.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3179386,24.4340687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 公寓<br>電腦編號: 969<br>村里別: 盤山村<br>地址: 金門縣金寧鄉盤山村25鄰伯玉路二段680巷213號<br>備註: <br>緯度: 24.444<br>經度: 118.344<br>地下樓層數: 1<br>可容納人數: 398]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>公寓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>969.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>盤山村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉盤山村25鄰伯玉路二段680巷213號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.44398</value>
+          </Data>
+          <Data name="經度">
+            <value>118.34353</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>398.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3421571,24.4449246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 970<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村26鄰湖峰二街18號<br>備註: <br>緯度: 24.456<br>經度: 118.307<br>地下樓層數: 1<br>可容納人數: 365]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>970.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村26鄰湖峰二街18號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4559</value>
+          </Data>
+          <Data name="經度">
+            <value>118.30691</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>365.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.306765,24.4514304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 971<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村26鄰湖峰路18號<br>備註: <br>緯度: 24.454<br>經度: 118.306<br>地下樓層數: 1<br>可容納人數: 98]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>971.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村26鄰湖峰路18號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45365</value>
+          </Data>
+          <Data name="經度">
+            <value>118.30598</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>98.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3065342,24.4514819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <address>金城鎮珠浦南路44巷12弄3之1號</address>
+        <description><![CDATA[類別: 大樓<br>電腦編號: 972<br>村里別: 南門里<br>地址: 金城鎮珠浦南路44巷12弄3之1號<br>備註: <br>緯度: 24.432<br>經度: 118.316<br>地下樓層數: 1<br>可容納人數: 80]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>大樓</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>972.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>南門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金城鎮珠浦南路44巷12弄3之1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.431615</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31578</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>80.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <address>金門縣金寧鄉湖埔村湖峰路65號</address>
+        <description><![CDATA[類別: 私人住宅<br>電腦編號: 973<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村湖峰路65號<br>備註: <br>緯度: 24.454<br>經度: 118.306<br>地下樓層數: 1<br>可容納人數: 106]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>私人住宅</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>973.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村湖峰路65號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.45365</value>
+          </Data>
+          <Data name="經度">
+            <value>118.30598</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>106.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <address>金門縣金寧鄉湖埔村7鄰湖峰7街1號</address>
+        <description><![CDATA[類別: 私人住宅<br>電腦編號: 974<br>村里別: 湖埔村<br>地址: 金門縣金寧鄉湖埔村7鄰湖峰7街1號<br>備註: <br>緯度: 24.454<br>經度: 118.305<br>地下樓層數: 2<br>可容納人數: 1382]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>私人住宅</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>974.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>湖埔村</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金寧鄉湖埔村7鄰湖峰7街1號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4536</value>
+          </Data>
+          <Data name="經度">
+            <value>118.30543</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>2.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>1382.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <address>金門縣金城鎮西門里44鄰民權路226巷3弄20號</address>
+        <description><![CDATA[類別: 私人住宅<br>電腦編號: 975<br>村里別: 西門里<br>地址: 金門縣金城鎮西門里44鄰民權路226巷3弄20號<br>備註: <br>緯度: 24.44<br>經度: 118.37<br>地下樓層數: 1<br>可容納人數: 113]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>私人住宅</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>975.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>西門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮西門里44鄰民權路226巷3弄20號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.43987</value>
+          </Data>
+          <Data name="經度">
+            <value>118.36963</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>113.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>金城分局</name>
+        <description><![CDATA[類別: 金門郵局<br>電腦編號: 976<br>村里別: 北門里<br>地址: 金門縣金城鎮北門里24鄰民生路4號<br>備註: <br>緯度: 24.435<br>經度: 118.32<br>地下樓層數: 1<br>可容納人數: 204]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>金門郵局</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>976.0</value>
+          </Data>
+          <Data name="村里別">
+            <value>北門里</value>
+          </Data>
+          <Data name="地址">
+            <value>金門縣金城鎮北門里24鄰民生路4號</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+          <Data name="緯度">
+            <value>24.4346</value>
+          </Data>
+          <Data name="經度">
+            <value>118.31969</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>204.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            118.3205101,24.4329949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

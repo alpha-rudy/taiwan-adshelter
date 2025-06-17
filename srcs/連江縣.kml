@@ -1,0 +1,2509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>連江縣</name>
+    <description/>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>連江縣</name>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村40-5號後方山坡地</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 2<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村40-5號後方山坡地<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15786, 119.95191]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>2.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村40-5號後方山坡地</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15786, 119.95191</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村63號國民黨縣黨部旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 3<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村63號國民黨縣黨部旁<br>地下樓層數: 1<br>可容納人數: 44<br>備註: 26.15983, 119.95218]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>3.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村63號國民黨縣黨部旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>44.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15983, 119.95218</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村93號前下方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 4<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村93號前下方<br>地下樓層數: 1<br>可容納人數: 44<br>備註: 26.15786, 119.95191]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>4.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村93號前下方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>44.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15786, 119.95191</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村76號縣府地下室</address>
+        <description><![CDATA[類別: 防空避難設備<br>電腦編號: 5<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村76號縣府地下室<br>地下樓層數: 1<br>可容納人數: 69<br>備註: 26.15786, 119.95191]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空避難設備</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>5.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村76號縣府地下室</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>69.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15786, 119.95191</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村254號右側</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 6<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村254號右側<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15786, 119.95191]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>6.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村254號右側</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15786, 119.95191</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村中正圖書館大門右側</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 7<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村中正圖書館大門右側<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15786, 119.95191]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>7.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村中正圖書館大門右側</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15786, 119.95191</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村329號前</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 9<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村329號前<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.16051, 119.95007無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>9.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村329號前</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.16051, 119.95007無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 10<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村331號右後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15786, 119.95191]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>10.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村331號右後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15786, 119.95191</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            119.950675,26.1546848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村374號馬祖高中圖書館左側</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 11<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村374號馬祖高中圖書館左側<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15444, 119.94987]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>11.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村374號馬祖高中圖書館左側</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15444, 119.94987</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <description><![CDATA[類別: 防空避難設備<br>電腦編號: 12<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村374號馬祖高中地下停車場一層<br>地下樓層數: 1<br>可容納人數: 138<br>備註: 26.15786, 119.95191]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空避難設備</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>12.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村374號馬祖高中地下停車場一層</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>138.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15786, 119.95191</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            119.9506482,26.1558596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 復興村 連江縣南竿鄉復興村26號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 13<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 復興村<br>地址: 連江縣南竿鄉復興村26號旁<br>地下樓層數: 1<br>可容納人數: 28<br>備註: 26.15992, 119.95167]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>13.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>復興村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉復興村26號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>28.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15992, 119.95167</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 復興村 連江縣南竿鄉復興村30號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 14<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 復興村<br>地址: 連江縣南竿鄉復興村30號旁<br>地下樓層數: 1<br>可容納人數: 27<br>備註: 26.16117, 119.94934]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>14.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>復興村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉復興村30號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>27.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.16117, 119.94934</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 復興村 連江縣南竿鄉復興村43之2號前</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 15<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 復興村<br>地址: 連江縣南竿鄉復興村43之2號前<br>地下樓層數: 1<br>可容納人數: 27<br>備註: 26.16455, 119.95815無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>15.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>復興村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉復興村43之2號前</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>27.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.16455, 119.95815無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 復興村 連江縣南竿鄉復興村145-1號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 16<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 復興村<br>地址: 連江縣南竿鄉復興村145-1號旁<br>地下樓層數: 1<br>可容納人數: 27<br>備註: 26.16455, 119.95815]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>16.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>復興村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉復興村145-1號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>27.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.16455, 119.95815</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 復興村 連江縣南竿鄉復興村178號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 17<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 復興村<br>地址: 連江縣南竿鄉復興村178號旁<br>地下樓層數: 1<br>可容納人數: 27<br>備註: 26.16117, 119.94934]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>17.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>復興村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉復興村178號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>27.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.16117, 119.94934</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 復興村 連江縣南竿鄉復興村202號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 18<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 復興村<br>地址: 連江縣南竿鄉復興村202號旁<br>地下樓層數: 1<br>可容納人數: 27<br>備註: 26.16117, 119.94934]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>18.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>復興村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉復興村202號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>27.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.16117, 119.94934</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 福沃村 連江縣南竿鄉福沃村4號地下室</address>
+        <description><![CDATA[類別: 防空避難設備<br>電腦編號: 19<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 福沃村<br>地址: 連江縣南竿鄉福沃村4號地下室<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.158, 119.94426暫停使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空避難設備</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>19.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>福沃村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉福沃村4號地下室</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.158, 119.94426暫停使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 福沃村 連江縣南竿鄉福沃村21號地下室</address>
+        <description><![CDATA[類別: 防空避難設備<br>電腦編號: 20<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 福沃村<br>地址: 連江縣南竿鄉福沃村21號地下室<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.158, 119.94426]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空避難設備</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>20.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>福沃村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉福沃村21號地下室</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.158, 119.94426</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 福沃村 連江縣南竿鄉福沃村92號後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 21<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 福沃村<br>地址: 連江縣南竿鄉福沃村92號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.158, 119.94426]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>21.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>福沃村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉福沃村92號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.158, 119.94426</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 福沃村 連江縣南竿鄉福沃村108號凱翔客棧右方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 22<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 福沃村<br>地址: 連江縣南竿鄉福沃村108號凱翔客棧右方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.1561, 119.94367]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>22.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>福沃村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉福沃村108號凱翔客棧右方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.1561, 119.94367</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 福沃村 連江縣南竿鄉福沃村110-1號凱翔客棧右方旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 23<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 福沃村<br>地址: 連江縣南竿鄉福沃村110-1號凱翔客棧右方旁<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.1561, 119.94367]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>23.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>福沃村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉福沃村110-1號凱翔客棧右方旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.1561, 119.94367</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村116號後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 24<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村116號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15288, 119.93831]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>24.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村116號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15288, 119.93831</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村131號後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 25<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村131號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15027, 119.93557]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>25.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村131號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15027, 119.93557</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村86號福安瓦斯行入口右側</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 26<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村86號福安瓦斯行入口右側<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14777, 119.93791福安瓦斯行入口右側]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>26.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村86號福安瓦斯行入口右側</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14777, 119.93791福安瓦斯行入口右側</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村往梅石道路旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 27<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村往梅石道路旁<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15027, 119.93557]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>27.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村往梅石道路旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15027, 119.93557</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村60號旁水井右上方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 28<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村60號旁水井右上方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14777, 119.93791]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>28.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村60號旁水井右上方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14777, 119.93791</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村1號朱福養豬場後方水井上方山腰</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 29<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村1號朱福養豬場後方水井上方山腰<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14777, 119.93791]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>29.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村1號朱福養豬場後方水井上方山腰</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14777, 119.93791</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村95號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 30<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村95號旁<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15027, 119.93557]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>30.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村95號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15027, 119.93557</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村梅石高總管廟旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 31<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村梅石高總管廟旁<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15825, 119.91815]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>31.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村梅石高總管廟旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15825, 119.91815</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村20號左後方山腰上</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 32<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村20號左後方山腰上<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15027, 119.93557]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>32.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村20號左後方山腰上</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15027, 119.93557</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村71號旁大樹下方山坡上</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 33<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村71號旁大樹下方山坡上<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14777, 119.93791]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>33.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村71號旁大樹下方山坡上</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14777, 119.93791</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 清水村 連江縣南竿鄉清水村71號旁大樹下方樹根處</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 34<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村71號旁大樹下方樹根處<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15027, 119.93557無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>34.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村71號旁大樹下方樹根處</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15027, 119.93557無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 35<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 珠螺村<br>地址: 連江縣南竿鄉珠螺村14號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15966, 119.92966無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>35.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>珠螺村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉珠螺村14號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15966, 119.92966無法使用</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            119.930039,26.1596579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 珠螺村 連江縣南竿鄉珠螺村舊村公所</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 36<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 珠螺村<br>地址: 連江縣南竿鄉珠螺村舊村公所<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15966, 119.92966]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>36.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>珠螺村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉珠螺村舊村公所</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15966, 119.92966</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 馬祖村 連江縣南竿鄉馬祖村77號倉庫後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 37<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 馬祖村<br>地址: 連江縣南竿鄉馬祖村77號倉庫後方<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 26.15825, 119.91815無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>37.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>馬祖村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉馬祖村77號倉庫後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15825, 119.91815無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 馬祖村 連江縣南竿鄉馬祖村105號右側</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 38<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 馬祖村<br>地址: 連江縣南竿鄉馬祖村105號右側<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 26.15825, 119.91815無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>38.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>馬祖村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉馬祖村105號右側</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15825, 119.91815無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 四維村 連江縣南竿鄉四維村27號左前方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 39<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 四維村<br>地址: 連江縣南竿鄉四維村27號左前方<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 26.1673, 119.91987無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>39.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>四維村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉四維村27號左前方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.1673, 119.91987無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 四維村 連江縣南竿鄉四維村舊村辦公室</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 40<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 四維村<br>地址: 連江縣南竿鄉四維村舊村辦公室<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 26.16965, 119.91807]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>40.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>四維村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉四維村舊村辦公室</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.16965, 119.91807</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村54號後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 41<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村54號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14225, 119.92524無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>41.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村54號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14225, 119.92524無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村仁愛市場對面</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 42<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村仁愛市場對面<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14278, 119.92528]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>42.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村仁愛市場對面</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14278, 119.92528</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 43<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村 43號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14506, 119.92634]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>43.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村 43號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14506, 119.92634</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            119.9265419,26.1449076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村100號後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 44<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村100號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14225, 119.92524]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>44.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村100號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14225, 119.92524</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村天后宮後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 46<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村天后宮後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14198, 119.92442]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>46.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村天后宮後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14198, 119.92442</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村仁愛國小左方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 47<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村仁愛國小左方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.1411, 119.92742]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>47.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村仁愛國小左方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.1411, 119.92742</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 津沙村 連江縣南竿鄉津沙村港口右側(已改觀光廁所)</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 48<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 津沙村<br>地址: 連江縣南竿鄉津沙村港口右側(已改觀光廁所)<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14579, 119.91193]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>48.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>津沙村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉津沙村港口右側(已改觀光廁所)</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14579, 119.91193</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 津沙村 連江縣南竿鄉津沙村村公所旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 49<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 津沙村<br>地址: 連江縣南竿鄉津沙村村公所旁<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14579, 119.91193無法使用]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>49.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>津沙村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉津沙村村公所旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14579, 119.91193無法使用</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 津沙村 連江縣南竿鄉津沙村48-1號右側</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 50<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 津沙村<br>地址: 連江縣南竿鄉津沙村48-1號右側<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14579, 119.91193]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>50.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>津沙村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉津沙村48-1號右側</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14579, 119.91193</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 津沙村 連江縣南竿鄉津沙村84號後方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 51<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 津沙村<br>地址: 連江縣南竿鄉津沙村84號後方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14579, 119.91193]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>51.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>津沙村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉津沙村84號後方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14579, 119.91193</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 津沙村 連江縣南竿鄉津沙村公廁旁(已改為村展覽館)</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 52<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 津沙村<br>地址: 連江縣南竿鄉津沙村公廁旁(已改為村展覽館)<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14579, 119.91193]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>52.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>津沙村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉津沙村公廁旁(已改為村展覽館)</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14579, 119.91193</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 津沙村 連江縣南竿鄉津沙村120號旁津、仁步道順上約10公尺處左方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 53<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 津沙村<br>地址: 連江縣南竿鄉津沙村120號旁津、仁步道順上約10公尺處左方<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.14206, 119.91794]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>53.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>津沙村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉津沙村120號旁津、仁步道順上約10公尺處左方</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14206, 119.91794</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>北竿警察所</name>
+        <address>連江縣 北竿鄉 塘岐村 連江縣北竿鄉塘岐村海邊公園停車場</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 54<br>縣市別: 連江縣<br>鄉鎮別: 北竿鄉<br>村里別: 塘岐村<br>地址: 連江縣北竿鄉塘岐村海邊公園停車場<br>地下樓層數: 1<br>可容納人數: 195<br>備註: 26.22436, 120.00102]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>54.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>北竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>塘岐村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣北竿鄉塘岐村海邊公園停車場</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>195.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.22436, 120.00102</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>北竿警察所</name>
+        <address>連江縣 北竿鄉 塘岐村 連江縣北竿鄉塘岐村71號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 55<br>縣市別: 連江縣<br>鄉鎮別: 北竿鄉<br>村里別: 塘岐村<br>地址: 連江縣北竿鄉塘岐村71號旁<br>地下樓層數: 1<br>可容納人數: 16<br>備註: 26.22457, 119.99826]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>55.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>北竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>塘岐村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣北竿鄉塘岐村71號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>16.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.22457, 119.99826</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>北竿警察所</name>
+        <address>連江縣 北竿鄉 芹壁村 連江縣北竿鄉芹壁村72號(左下方路旁)。</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 56<br>縣市別: 連江縣<br>鄉鎮別: 北竿鄉<br>村里別: 芹壁村<br>地址: 連江縣北竿鄉芹壁村72號(左下方路旁)。<br>地下樓層數: 1<br>可容納人數: 26<br>備註: 26.22424, 119.98341]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>56.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>北竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>芹壁村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣北竿鄉芹壁村72號(左下方路旁)。</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>26.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.22424, 119.98341</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>莒光警察所</name>
+        <address>連江縣 莒光鄉 青帆村 連江縣莒光鄉青帆村敬恆國中小旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 57<br>縣市別: 連江縣<br>鄉鎮別: 莒光鄉<br>村里別: 青帆村<br>地址: 連江縣莒光鄉青帆村敬恆國中小旁<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 25.97063, 119.93367]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>57.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>莒光鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>青帆村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣莒光鄉青帆村敬恆國中小旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>25.97063, 119.93367</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>莒光警察所</name>
+        <address>連江縣 莒光鄉 青帆村 連江縣莒光鄉青帆村思鄉卡拉OK旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 58<br>縣市別: 連江縣<br>鄉鎮別: 莒光鄉<br>村里別: 青帆村<br>地址: 連江縣莒光鄉青帆村思鄉卡拉OK旁<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 25.96873, 119.93696]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>58.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>莒光鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>青帆村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣莒光鄉青帆村思鄉卡拉OK旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>25.96873, 119.93696</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>莒光警察所</name>
+        <address>連江縣 莒光鄉 大坪村 連江縣莒光鄉大坪村4號(東莒國小後方)</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 59<br>縣市別: 連江縣<br>鄉鎮別: 莒光鄉<br>村里別: 大坪村<br>地址: 連江縣莒光鄉大坪村4號(東莒國小後方)<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 25.95743, 119.97709]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>59.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>莒光鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>大坪村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣莒光鄉大坪村4號(東莒國小後方)</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>25.95743, 119.97709</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>莒光警察所</name>
+        <address>連江縣 莒光鄉 大坪村 連江縣莒光鄉大坪村圓環(吾愛吾鄉)前</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 60<br>縣市別: 連江縣<br>鄉鎮別: 莒光鄉<br>村里別: 大坪村<br>地址: 連江縣莒光鄉大坪村圓環(吾愛吾鄉)前<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 25.95743, 119.97709]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>60.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>莒光鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>大坪村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣莒光鄉大坪村圓環(吾愛吾鄉)前</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>25.95743, 119.97709</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>莒光警察所</name>
+        <address>連江縣 莒光鄉 福正村 連江縣莒光鄉福正村38-1號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 61<br>縣市別: 連江縣<br>鄉鎮別: 莒光鄉<br>村里別: 福正村<br>地址: 連江縣莒光鄉福正村38-1號旁<br>地下樓層數: 1<br>可容納人數: 33<br>備註: 25.9644, 119.98835]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>61.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>莒光鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>福正村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣莒光鄉福正村38-1號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>33.0</value>
+          </Data>
+          <Data name="備註">
+            <value>25.9644, 119.98835</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>東引警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 62<br>縣市別: 連江縣<br>鄉鎮別: 東引鄉<br>村里別: 樂華村<br>地址: 連江縣東引鄉樂華村舊衛生所後方(惠民坑道)<br>地下樓層數: 1<br>可容納人數: 466<br>備註: 26.36728, 120.49065]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>62.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>東引鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>樂華村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣東引鄉樂華村舊衛生所後方(惠民坑道)</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>466.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.36728, 120.49065</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.4906423,26.3672876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東引警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 63<br>縣市別: 連江縣<br>鄉鎮別: 東引鄉<br>村里別: 中柳村<br>地址: 連江縣東引鄉中柳村35號<br>地下樓層數: 1<br>可容納人數: 13<br>備註: 26.36727, 120.48766]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>63.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>東引鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>中柳村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣東引鄉中柳村35號</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>13.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.36727, 120.48766</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.4888702,26.3673216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東引警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 64<br>縣市別: 連江縣<br>鄉鎮別: 東引鄉<br>村里別: 樂華村<br>地址: 連江縣東引鄉樂華村141號<br>地下樓層數: 1<br>可容納人數: 13<br>備註: 26.36728, 120.48796]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>64.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>東引鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>樂華村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣東引鄉樂華村141號</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>13.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.36728, 120.48796</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.4890204,26.3673841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東引警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 65<br>縣市別: 連江縣<br>鄉鎮別: 東引鄉<br>村里別: 樂華村<br>地址: 連江縣東引鄉樂華村55號<br>地下樓層數: 1<br>可容納人數: 13<br>備註: 26.36737, 120.48875]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>65.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>東引鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>樂華村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣東引鄉樂華村55號</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>13.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.36737, 120.48875</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.4890848,26.3675523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東引警察所</name>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 66<br>縣市別: 連江縣<br>鄉鎮別: 東引鄉<br>村里別: 樂華村<br>地址: 連江縣東引鄉樂華村56號<br>地下樓層數: 1<br>可容納人數: 13<br>備註: 26.36706, 120.48707]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>66.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>東引鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>樂華村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣東引鄉樂華村56號</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>13.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.36706, 120.48707</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.488602,26.3670477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村1號旁</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 1<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村1號旁<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 26.15808, 119.95178]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>1.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村1號旁</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.15808, 119.95178</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>東引警察所</name>
+        <description><![CDATA[類別: 防空避難設備<br>電腦編號: 67<br>縣市別: 連江縣<br>鄉鎮別: 東引鄉<br>村里別: 中柳村<br>地址: 連江縣東引鄉中柳村121號<br>地下樓層數: 1<br>可容納人數: 752<br>備註: 26.367225,120.490637]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空避難設備</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>67.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>東引鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>中柳村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣東引鄉中柳村121號</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>752.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.367225,120.490637</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.4899592,26.367312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <description><![CDATA[類別: 防空避難設備<br>電腦編號: 68<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 清水村<br>地址: 連江縣南竿鄉清水村29號<br>地下樓層數: 1<br>可容納人數: 1555<br>備註: 26.14684, 119.9359]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空避難設備</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>68.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>清水村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉清水村29號</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>1555.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14684, 119.9359</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            119.9359055,26.1468434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村160號(160號至164號集合式住宅地下停車場</address>
+        <description><![CDATA[類別: 防空避難設備<br>電腦編號: 69<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村160號(160號至164號集合式住宅地下停車場<br>地下樓層數: 1<br>可容納人數: 2673<br>備註: 26.14506, 119.92634]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空避難設備</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>69.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村160號(160號至164號集合式住宅地下停車場</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>2673.0</value>
+          </Data>
+          <Data name="備註">
+            <value>26.14506, 119.92634</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 介壽村 連江縣南竿鄉介壽村中正圖書館後面廁所下方</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 8<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 介壽村<br>地址: 連江縣南竿鄉介壽村中正圖書館後面廁所下方<br><br>地下樓層數: 0<br>可容納人數: 44<br>備註: ]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>8.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>介壽村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉介壽村中正圖書館後面廁所下方
+</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>0.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>44.0</value>
+          </Data>
+          <Data name="備註">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>南竿警察所</name>
+        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村75號後方(解除列管)</address>
+        <description><![CDATA[類別: 防空掩體<br>電腦編號: 45<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村75號後方(解除列管)<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 已撤管]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="類別">
+            <value>防空掩體</value>
+          </Data>
+          <Data name="電腦編號">
+            <value>45.0</value>
+          </Data>
+          <Data name="縣市別">
+            <value>連江縣</value>
+          </Data>
+          <Data name="鄉鎮別">
+            <value>南竿鄉</value>
+          </Data>
+          <Data name="村里別">
+            <value>仁愛村</value>
+          </Data>
+          <Data name="地址">
+            <value>連江縣南竿鄉仁愛村75號後方(解除列管)</value>
+          </Data>
+          <Data name="地下樓層數">
+            <value>1.0</value>
+          </Data>
+          <Data name="可容納人數">
+            <value>22.0</value>
+          </Data>
+          <Data name="備註">
+            <value>已撤管</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>(未命名的圖層)</name>
+    </Folder>
+  </Document>
+</kml>
