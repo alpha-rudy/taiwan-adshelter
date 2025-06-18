@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import xml.etree.ElementTree as ET
+from xml.sax.saxutils import escape
 import click
 import uuid
 
@@ -60,27 +61,17 @@ def build_osm(nodes):
         lat = node['lat']
         lon = node['lon']
         tags = node['tags']
-        
-        node_str = f'<node id="{id_counter}" visible="true" lat="{lat}" lon="{lon}"/>'
-        tag_strs = [f'<tag k="{k}" v="{v}"/>' for k, v in tags.items() if v]
-        # handle tags by tag's key name
-        # for k, v in tags.items():
-        #     if not v:
-        #         continue
-        #     if k == 'capacity':
-        #         tag_strs.append(f'<tag k="capacity" v="{int(float(v))}"/>')
-        #     else:
-        #         tag_strs.append(f'<tag k="{k}" v="{v}"/>')
-        
+
+        escaped_tags = {k: escape(v) for k, v in tags.items() if v}
+
         osm_node = [f'<node id="{id_counter}" visible="true" lat="{lat}" lon="{lon}">']
-        osm_node.extend(tag_strs)
+        osm_node.extend([f'<tag k="{k}" v="{v}"/>' for k, v in escaped_tags.items()])
         osm_node.append('</node>')
-        
+
         osm_body.append('\n'.join(osm_node))
         id_counter -= 1
 
     return f"{OSM_HEADER}\n{chr(10).join(osm_body)}\n{OSM_FOOTER}"
-
 
 @click.command()
 @click.argument('kml_file', type=click.Path(exists=True))
