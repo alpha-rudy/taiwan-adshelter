@@ -111,6 +111,9 @@ def parse_kml(kml_file):
             except ValueError:
                 return False
         
+        def friendly_name():
+            return extended_data.get('電腦編號', None) or extended_data or name
+        
         if lat is None or lon is None:
             if is_float(name):
                 lat = name.strip()
@@ -119,12 +122,13 @@ def parse_kml(kml_file):
             lon = parse_lon_from_description(description)
 
         if lat is None or lon is None:
-            click.echo(f"Warning: no coordinates found for placemark '{extended_data.get('電腦編號', None) or extended_data or name}' in {kml_file}")
+            click.echo(f"Warning: no coordinates found for placemark '{friendly_name()}' in {kml_file}")
             continue
 
         try:
             node = build_node(lat, lon, name, extended_data)
             data.append(node)
+            click.echo(f"Added node: {friendly_name()} at ({lat}, {lon})")
         except ValueError as e:
             click.echo(f"Warning: ValueError on placemark '{extended_data.get('電腦編號', None) or extended_data or name}' in {kml_file}: {e}")
 
