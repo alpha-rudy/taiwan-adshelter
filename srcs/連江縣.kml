@@ -2465,41 +2465,11 @@
             <value/>
           </Data>
         </ExtendedData>
-      </Placemark>
-      <Placemark>
-        <name>南竿警察所</name>
-        <address>連江縣 南竿鄉 仁愛村 連江縣南竿鄉仁愛村75號後方(解除列管)</address>
-        <description><![CDATA[類別: 防空掩體<br>電腦編號: 45<br>縣市別: 連江縣<br>鄉鎮別: 南竿鄉<br>村里別: 仁愛村<br>地址: 連江縣南竿鄉仁愛村75號後方(解除列管)<br>地下樓層數: 1<br>可容納人數: 22<br>備註: 已撤管]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <ExtendedData>
-          <Data name="類別">
-            <value>防空掩體</value>
-          </Data>
-          <Data name="電腦編號">
-            <value>45.0</value>
-          </Data>
-          <Data name="縣市別">
-            <value>連江縣</value>
-          </Data>
-          <Data name="鄉鎮別">
-            <value>南竿鄉</value>
-          </Data>
-          <Data name="村里別">
-            <value>仁愛村</value>
-          </Data>
-          <Data name="地址">
-            <value>連江縣南竿鄉仁愛村75號後方(解除列管)</value>
-          </Data>
-          <Data name="地下樓層數">
-            <value>1.0</value>
-          </Data>
-          <Data name="可容納人數">
-            <value>22.0</value>
-          </Data>
-          <Data name="備註">
-            <value>已撤管</value>
-          </Data>
-        </ExtendedData>
+        <Point>
+          <coordinates>
+            119.95047245403472,26.156304909834837,0  
+          </coordinates>
+        </Point>
       </Placemark>
     </Folder>
     <Folder>
