@@ -29,7 +29,7 @@ def parse_coordinates_from_description(description):
     if not description:
         return None, None
 
-    match = re.search(r"緯經度[^\d]*([\d.]+),([\d.]+)", description)
+    match = re.search(r"緯經度[^\d]*([\d.]+),[^\d]*([\d.]+)[^\d]", description)
     if match:
         return match.group(1), match.group(2)
 
@@ -37,6 +37,11 @@ def parse_coordinates_from_description(description):
     lon_match = re.search(r"經度[^\d]*([\d.]+)", description)
     if lat_match and lon_match:
         return lat_match.group(1), lon_match.group(1)
+    
+    match = re.search(r"備註[^\d]*([\d.]+),[^\d]*([\d.]+)[^\d]", description)
+    if match:
+        return match.group(1), match.group(2)
+    
 
     return None, None
 
