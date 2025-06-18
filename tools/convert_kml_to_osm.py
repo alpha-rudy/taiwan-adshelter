@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 import click
 import os
+import re
 
 OSM_HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="kml2osm">'''
@@ -20,6 +21,8 @@ def parse_kml(kml_file):
     tree = ET.parse(kml_file)
     root = tree.getroot()
     placemarks = root.findall(".//kml:Placemark", ns)
+    # show the number of placemarks found
+    click.echo(f"Found {len(placemarks)} placemarks in {kml_file}")
 
     data = []
     for placemark in placemarks:
@@ -33,24 +36,60 @@ def parse_kml(kml_file):
             if key and value_el is not None:
                 extended_data[key] = value_el.text
 
+        # Extract coordinates from Point element or ExtendedData
         point = placemark.find(".//kml:Point/kml:coordinates", ns)
         if point is not None:
-            coords = point.text.strip().split(',')
-            if len(coords) >= 2:
-                lon, lat = coords[:2]
-                node = {
-                    'lat': float(lat),
-                    'lon': float(lon),
-                    'tags': {
-                        'amenity': 'air_defense_shelter',
-                        'name': name,
-                        'address': extended_data.get('地址', ''),
-                        'under_floor': extended_data.get('地下樓層數', ''),
-                        'capacity': extended_data.get('可容納人數', '')
-                    }
-                }
-                data.append(node)
+            lon, lat = point.text.strip().split(',')[:2]
+            # click.echo(f"Found coordinates in Point for placemark '{name}': lon={lon}, lat={lat}")
+        elif '經度' in extended_data and '緯度' in extended_data and extended_data['經度'] and extended_data['緯度']:
+            lon = extended_data['經度'].strip('\n ,')
+            lat = extended_data['緯度'].strip('\n ,')
+            # click.echo(f"Found coordinates in ExtendedData for placemark '{name}': lon={lon}, lat={lat}")
+        elif placemark.find("kml:description", ns) is not None:
+            desc_el = placemark.find("kml:description", ns)
+            if desc_el is not None and desc_el.text:
+                match = re.search(r"緯經度[^\d]*([\d.]+),([\d.]+)", desc_el.text)
+                if match:
+                    lat = match.group(1)
+                    lon = match.group(2)
+                ##  tyr 緯度: 24.877512<br>經度: 121.288436
+                elif '經度' in desc_el.text and '緯度' in desc_el.text:
+                    match = re.search(r"緯度[^\d]*([\d.]+)[^\d]*", desc_el.text)
+                    if match:
+                        lat = match.group(1)
+                    else:
+                        click.echo(f"Warning: no latitude found in desc_el for '{name}' in {kml_file}")
+                        continue
+                    match = re.search(r"經度[^\d]*([\d.]+)[^\d]*", desc_el.text)
+                    if match:
+                        lon = match.group(1)
+                    else:
+                        click.echo(f"Warning: no longitude found in desc_el for '{name}' in {kml_file}")
+                        continue
+                else:
+                    click.echo(f"Warning: {desc_el.text} not matched '{name}' in {kml_file}")
+                    continue
+            else:
+                click.echo(f"Warning: desc_el is None '{name}' in {kml_file}")
+                continue
+        else:
+            click.echo(f"Warning: no coordinates found for placemark '{name}' in {kml_file}")
+            continue
 
+        node = {
+            'lat': float(lat),
+            'lon': float(lon),
+            'tags': {
+                'amenity': 'air_defense_shelter',
+                'name': name,
+                'address': extended_data.get('地址', '').strip('\n '),
+                'under_floor': extended_data.get('地下樓層數', '').strip('\n '),
+                'capacity': extended_data.get('可容納人數', '').strip('\n '),
+            }
+        }
+        data.append(node)
+
+    click.echo(f"Extracted {len(data)} air defense shelter nodes from {kml_file}")
     return data
 
 
@@ -64,8 +103,13 @@ def build_osm(nodes):
         
         # validate coordinates
         if not (21.8 <= lat <= 26.5) or not (118.2 <= lon <= 122.0):
-            click.echo(f"Warning: invalid coordinates: lat={lat}, lon={lon}, skipping the problematic node({tags['name']}/{tags['address']})")
-            continue
+            # switch lat and lon and try again
+            if not (21.8 <= lon <= 26.5) or not (118.2 <= lat <= 122.0):
+                click.echo(f"Warning: invalid coordinates: lat={lat}, lon={lon}, skipping the problematic node({tags['name']}/{tags['address']})")
+                continue
+            else:
+                lat, lon = lon, lat
+                click.echo(f"Switched coordinates: lat={lat}, lon={lon} for node({tags['name']}/{tags['address']})")
 
         escaped_tags = {k: escape(v) for k, v in tags.items() if v}
 
