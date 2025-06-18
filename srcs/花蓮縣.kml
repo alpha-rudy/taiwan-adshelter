@@ -1732,39 +1732,6 @@
           </Data>
         </ExtendedData>
       </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[電腦編號: <br>村里別: <br>地址: <br>緯度: <br>經度: <br>避難樓層: <br>容量: <br>轄管分局: .<br>備註: ]]></description>
-        <ExtendedData>
-          <Data name="電腦編號">
-            <value/>
-          </Data>
-          <Data name="村里別">
-            <value/>
-          </Data>
-          <Data name="地址">
-            <value/>
-          </Data>
-          <Data name="緯度">
-            <value/>
-          </Data>
-          <Data name="經度">
-            <value/>
-          </Data>
-          <Data name="避難樓層">
-            <value/>
-          </Data>
-          <Data name="容量">
-            <value/>
-          </Data>
-          <Data name="轄管分局">
-            <value>.</value>
-          </Data>
-          <Data name="備註">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
     </Folder>
     <Folder>
       <name>新城分局-防空避難設施</name>
@@ -20747,96 +20714,6 @@
         </ExtendedData>
       </Placemark>
       <Placemark>
-        <name/>
-        <description><![CDATA[unnamed (1): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): ]]></description>
-        <ExtendedData>
-          <Data name="unnamed (1)">
-            <value/>
-          </Data>
-          <Data name="unnamed (3)">
-            <value/>
-          </Data>
-          <Data name="unnamed (4)">
-            <value/>
-          </Data>
-          <Data name="unnamed (5)">
-            <value/>
-          </Data>
-          <Data name="unnamed (6)">
-            <value/>
-          </Data>
-          <Data name="unnamed (7)">
-            <value/>
-          </Data>
-          <Data name="unnamed (8)">
-            <value/>
-          </Data>
-          <Data name="unnamed (9)">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[unnamed (1): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): ]]></description>
-        <ExtendedData>
-          <Data name="unnamed (1)">
-            <value/>
-          </Data>
-          <Data name="unnamed (3)">
-            <value/>
-          </Data>
-          <Data name="unnamed (4)">
-            <value/>
-          </Data>
-          <Data name="unnamed (5)">
-            <value/>
-          </Data>
-          <Data name="unnamed (6)">
-            <value/>
-          </Data>
-          <Data name="unnamed (7)">
-            <value/>
-          </Data>
-          <Data name="unnamed (8)">
-            <value/>
-          </Data>
-          <Data name="unnamed (9)">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[unnamed (1): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): ]]></description>
-        <ExtendedData>
-          <Data name="unnamed (1)">
-            <value/>
-          </Data>
-          <Data name="unnamed (3)">
-            <value/>
-          </Data>
-          <Data name="unnamed (4)">
-            <value/>
-          </Data>
-          <Data name="unnamed (5)">
-            <value/>
-          </Data>
-          <Data name="unnamed (6)">
-            <value/>
-          </Data>
-          <Data name="unnamed (7)">
-            <value/>
-          </Data>
-          <Data name="unnamed (8)">
-            <value/>
-          </Data>
-          <Data name="unnamed (9)">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
-      <Placemark>
         <name>台電花東營運處</name>
         <address>新城鄉</address>
         <description><![CDATA[unnamed (1): SOA00001<br>unnamed (3): 花蓮縣<br>unnamed (4): 新城鄉<br>unnamed (5): 嘉新村<br>unnamed (6): 花蓮縣新城鄉嘉南一街1號<br>unnamed (7): 24.003008<br>unnamed (8): 121.613<br>unnamed (9): B1]]></description>
@@ -24282,39 +24159,6 @@
           </Data>
         </ExtendedData>
       </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[電腦編號: <br>村里別: <br>地址: <br>緯度: <br>經度: <br>避難樓層: <br>容量: <br>轄管分局: <br>備註: .]]></description>
-        <ExtendedData>
-          <Data name="電腦編號">
-            <value/>
-          </Data>
-          <Data name="村里別">
-            <value/>
-          </Data>
-          <Data name="地址">
-            <value/>
-          </Data>
-          <Data name="緯度">
-            <value/>
-          </Data>
-          <Data name="經度">
-            <value/>
-          </Data>
-          <Data name="避難樓層">
-            <value/>
-          </Data>
-          <Data name="容量">
-            <value/>
-          </Data>
-          <Data name="轄管分局">
-            <value/>
-          </Data>
-          <Data name="備註">
-            <value>.</value>
-          </Data>
-        </ExtendedData>
-      </Placemark>
     </Folder>
     <Folder>
       <name>花蓮分局-防空避難設施</name>
@@ -24907,39 +24751,6 @@
           </Data>
           <Data name="轄管分局">
             <value>花蓮分局</value>
-          </Data>
-          <Data name="備註">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[電腦編號: <br>村里別: <br>地址: <br>緯度: <br>經度: <br>避難樓層: <br>容量: <br>轄管分局: <br>備註: ]]></description>
-        <ExtendedData>
-          <Data name="電腦編號">
-            <value/>
-          </Data>
-          <Data name="村里別">
-            <value/>
-          </Data>
-          <Data name="地址">
-            <value/>
-          </Data>
-          <Data name="緯度">
-            <value/>
-          </Data>
-          <Data name="經度">
-            <value/>
-          </Data>
-          <Data name="避難樓層">
-            <value/>
-          </Data>
-          <Data name="容量">
-            <value/>
-          </Data>
-          <Data name="轄管分局">
-            <value/>
           </Data>
           <Data name="備註">
             <value/>
