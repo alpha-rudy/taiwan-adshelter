@@ -75356,66 +75356,6 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[類別: <br>電腦編號: <br>里別: <br>座落: <br>緯度: <br>經度: <br>新計算容量(值): <br>轄管分局: ]]></description>
-        <ExtendedData>
-          <Data name="類別">
-            <value/>
-          </Data>
-          <Data name="電腦編號">
-            <value/>
-          </Data>
-          <Data name="里別">
-            <value/>
-          </Data>
-          <Data name="座落">
-            <value/>
-          </Data>
-          <Data name="緯度">
-            <value/>
-          </Data>
-          <Data name="經度">
-            <value/>
-          </Data>
-          <Data name="新計算容量(值)">
-            <value/>
-          </Data>
-          <Data name="轄管分局">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[類別:  <br>電腦編號: <br>里別: <br>座落: <br>緯度: <br>經度: <br>新計算容量(值): <br>轄管分局: ]]></description>
-        <ExtendedData>
-          <Data name="類別">
-            <value> </value>
-          </Data>
-          <Data name="電腦編號">
-            <value/>
-          </Data>
-          <Data name="里別">
-            <value/>
-          </Data>
-          <Data name="座落">
-            <value/>
-          </Data>
-          <Data name="緯度">
-            <value/>
-          </Data>
-          <Data name="經度">
-            <value/>
-          </Data>
-          <Data name="新計算容量(值)">
-            <value/>
-          </Data>
-          <Data name="轄管分局">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
     </Folder>
   </Document>
 </kml>
