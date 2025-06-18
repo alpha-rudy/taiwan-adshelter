@@ -3,7 +3,6 @@
 import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 import click
-import uuid
 
 OSM_HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="kml2osm">'''
