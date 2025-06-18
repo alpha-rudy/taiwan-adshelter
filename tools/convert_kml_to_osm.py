@@ -40,6 +40,16 @@ def parse_coordinates_from_description(description):
 
     return None, None
 
+def parse_lon_from_description(description):
+    if not description:
+        return None
+
+    lon_match = re.search(r"經度[^\d]*([\d.]+)", description)
+    if lon_match:
+        return lon_match.group(1)
+
+    return None
+
 def extract_extended_data(placemark, ns):
     data = {}
     for data_el in placemark.findall(".//kml:ExtendedData/kml:Data", ns):
@@ -91,16 +101,32 @@ def parse_kml(kml_file):
             desc_el = placemark.find("kml:description", ns)
             description = desc_el.text if desc_el is not None else ""
             lat, lon = parse_coordinates_from_description(description)
+        
+        def is_float(s):
+            if not s:
+                return False
+            try:
+                float(s)
+                return True
+            except ValueError:
+                return False
+        
+        if lat is None or lon is None:
+            if is_float(name):
+                lat = name.strip()
+            desc_el = placemark.find("kml:description", ns)
+            description = desc_el.text if desc_el is not None else ""
+            lon = parse_lon_from_description(description)
 
         if lat is None or lon is None:
-            click.echo(f"Warning: no coordinates found for placemark '{extended_data.get('電腦編號', None) or extended_data}' in {kml_file}")
+            click.echo(f"Warning: no coordinates found for placemark '{extended_data.get('電腦編號', None) or extended_data or name}' in {kml_file}")
             continue
 
         try:
             node = build_node(lat, lon, name, extended_data)
             data.append(node)
         except ValueError as e:
-            click.echo(f"Warning: ValueError on placemark '{extended_data.get('電腦編號', None) or extended_data}' in {kml_file}: {e}")
+            click.echo(f"Warning: ValueError on placemark '{extended_data.get('電腦編號', None) or extended_data or name}' in {kml_file}: {e}")
 
     click.echo(f"Extracted {len(data)} air defense shelter nodes from {kml_file}")
     return data
