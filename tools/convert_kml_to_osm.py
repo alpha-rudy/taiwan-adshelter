@@ -11,6 +11,15 @@ OSM_HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
 
 OSM_FOOTER = '</osm>'
 
+def is_float(s):
+    if not s:
+        return False
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
 def parse_coordinates_from_point(placemark, ns):
     point = placemark.find(".//kml:Point/kml:coordinates", ns)
     if point is not None:
@@ -24,9 +33,14 @@ def parse_coordinates_from_extended_data(extended_data):
         lat = extended_data["緯度"].strip("\n ,")
         return lat, lon
     
-    if "unnamed (6)" in extended_data and "unnamed (5)" in extended_data and extended_data["unnamed (6)"] and extended_data["unnamed (5)"]:
+    if "unnamed (6)" in extended_data and "unnamed (5)" in extended_data and extended_data["unnamed (6)"] and extended_data["unnamed (5)"] and is_float(extended_data["unnamed (6)"]) and is_float(extended_data["unnamed (5)"]):
         lon = extended_data["unnamed (6)"].strip("\n ,")
         lat = extended_data["unnamed (5)"].strip("\n ,")
+        return lat, lon
+
+    if "unnamed (8)" in extended_data and "unnamed (7)" in extended_data and extended_data["unnamed (8)"] and extended_data["unnamed (7)"] and is_float(extended_data["unnamed (8)"]) and is_float(extended_data["unnamed (7)"]):
+        lon = extended_data["unnamed (8)"].strip("\n ,")
+        lat = extended_data["unnamed (7)"].strip("\n ,")
         return lat, lon
 
     return None, None
@@ -112,15 +126,6 @@ def parse_kml(kml_file):
             desc_el = placemark.find("kml:description", ns)
             description = desc_el.text if desc_el is not None else ""
             lat, lon = parse_coordinates_from_description(description)
-        
-        def is_float(s):
-            if not s:
-                return False
-            try:
-                float(s)
-                return True
-            except ValueError:
-                return False
         
         def friendly_name():
             return extended_data.get('電腦編號', None) or extended_data or name
