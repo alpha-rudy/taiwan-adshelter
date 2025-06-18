@@ -3,6 +3,7 @@
 import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 import click
+import os
 
 OSM_HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="kml2osm">'''
@@ -19,7 +20,7 @@ def parse_kml(kml_file):
     tree = ET.parse(kml_file)
     root = tree.getroot()
     placemarks = root.findall(".//kml:Placemark", ns)
-    
+
     data = []
     for placemark in placemarks:
         name = placemark.find("kml:name", ns)
@@ -72,16 +73,24 @@ def build_osm(nodes):
 
     return f"{OSM_HEADER}\n{chr(10).join(osm_body)}\n{OSM_FOOTER}"
 
+
 @click.command()
-@click.argument('kml_file', type=click.Path(exists=True))
+@click.argument('kml_dir', type=click.Path(exists=True, file_okay=False))
 @click.argument('osm_file', type=click.Path())
-def convert(kml_file, osm_file):
-    """Convert KML to OSM file with air_defense_shelter amenity nodes."""
-    nodes = parse_kml(kml_file)
-    osm_content = build_osm(nodes)
+def convert(kml_dir, osm_file):
+    """Convert all KML files in a directory to a single OSM file with air_defense_shelter amenity nodes."""
+    all_nodes = []
+    for filename in os.listdir(kml_dir):
+        if filename.lower().endswith('.kml'):
+            filepath = os.path.join(kml_dir, filename)
+            nodes = parse_kml(filepath)
+            all_nodes.extend(nodes)
+            click.echo(f"Parsed {len(nodes)} placemarks from {filename}")
+
+    osm_content = build_osm(all_nodes)
     with open(osm_file, 'w', encoding='utf-8') as f:
         f.write(osm_content)
-    click.echo(f"Converted {len(nodes)} placemarks to {osm_file}")
+    click.echo(f"Converted total {len(all_nodes)} placemarks into {osm_file}")
 
 
 if __name__ == '__main__':
