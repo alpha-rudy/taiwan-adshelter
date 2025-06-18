@@ -76,18 +76,24 @@ def parse_kml(kml_file):
             click.echo(f"Warning: no coordinates found for placemark '{name}' in {kml_file}")
             continue
 
-        node = {
-            'lat': float(lat),
-            'lon': float(lon),
-            'tags': {
-                'amenity': 'air_defense_shelter',
-                'name': name,
-                'address': extended_data.get('地址', '').strip('\n '),
-                'under_floor': extended_data.get('地下樓層數', '').strip('\n '),
-                'capacity': extended_data.get('可容納人數', '').strip('\n '),
+        try:
+            node = {
+                'lat': float(lat),
+                'lon': float(lon),
+                'tags': {
+                    'amenity': 'air_defense_shelter',
+                    'name': name,
+                    'address': extended_data.get('地址', '').strip('\n '),
+                    'under_floor': extended_data.get('地下樓層數', '').strip('\n '),
+                    'capacity': extended_data.get('可容納人數', '').strip('\n '),
+                }
             }
-        }
-        data.append(node)
+            data.append(node)
+        except ValueError as e:
+            click.echo(f"Warning: ValueError on placemark'{name}' in {kml_file}: {e}")
+            click.echo(f"  extended_data: '{extended_data}'")
+            click.echo(f"  coords: '{lat}, {lon}'")
+            continue
 
     click.echo(f"Extracted {len(data)} air defense shelter nodes from {kml_file}")
     return data
