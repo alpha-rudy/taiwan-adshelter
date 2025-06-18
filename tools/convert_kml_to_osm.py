@@ -61,6 +61,11 @@ def build_osm(nodes):
         lat = node['lat']
         lon = node['lon']
         tags = node['tags']
+        
+        # validate coordinates
+        if not (21.8 <= lat <= 26.5) or not (118.2 <= lon <= 122.0):
+            click.echo(f"Warning: invalid coordinates: lat={lat}, lon={lon}, skipping the problematic node({tags['name']}/{tags['address']})")
+            continue
 
         escaped_tags = {k: escape(v) for k, v in tags.items() if v}
 
