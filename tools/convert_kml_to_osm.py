@@ -23,6 +23,12 @@ def parse_coordinates_from_extended_data(extended_data):
         lon = extended_data["經度"].strip("\n ,")
         lat = extended_data["緯度"].strip("\n ,")
         return lat, lon
+    
+    if "unnamed (6)" in extended_data and "unnamed (5)" in extended_data and extended_data["unnamed (6)"] and extended_data["unnamed (5)"]:
+        lon = extended_data["unnamed (6)"].strip("\n ,")
+        lat = extended_data["unnamed (5)"].strip("\n ,")
+        return lat, lon
+
     return None, None
 
 def parse_coordinates_from_description(description):
