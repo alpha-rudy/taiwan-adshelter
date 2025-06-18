@@ -11,6 +11,56 @@ OSM_HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
 
 OSM_FOOTER = '</osm>'
 
+def parse_coordinates_from_point(placemark, ns):
+    point = placemark.find(".//kml:Point/kml:coordinates", ns)
+    if point is not None:
+        lon, lat = point.text.strip().split(",")[:2]
+        return lat, lon
+    return None, None
+
+def parse_coordinates_from_extended_data(extended_data):
+    if "經度" in extended_data and "緯度" in extended_data and extended_data["經度"] and extended_data["緯度"]:
+        lon = extended_data["經度"].strip("\n ,")
+        lat = extended_data["緯度"].strip("\n ,")
+        return lat, lon
+    return None, None
+
+def parse_coordinates_from_description(description):
+    if not description:
+        return None, None
+
+    match = re.search(r"緯經度[^\d]*([\d.]+),([\d.]+)", description)
+    if match:
+        return match.group(1), match.group(2)
+
+    lat_match = re.search(r"緯度[^\d]*([\d.]+)", description)
+    lon_match = re.search(r"經度[^\d]*([\d.]+)", description)
+    if lat_match and lon_match:
+        return lat_match.group(1), lon_match.group(1)
+
+    return None, None
+
+def extract_extended_data(placemark, ns):
+    data = {}
+    for data_el in placemark.findall(".//kml:ExtendedData/kml:Data", ns):
+        key = data_el.attrib.get("name")
+        value_el = data_el.find("kml:value", ns)
+        if key and value_el is not None:
+            data[key] = value_el.text
+    return data
+
+def build_node(lat, lon, name, extended_data):
+    return {
+        "lat": float(lat),
+        "lon": float(lon),
+        "tags": {
+            "amenity": "air_defense_shelter",
+            "name": name,
+            "address": extended_data.get("地址", "").strip("\n "),
+            "under_floor": extended_data.get("地下樓層數", "").strip("\n "),
+            "capacity": extended_data.get("可容納人數", "").strip("\n "),
+        },
+    }
 
 def parse_kml(kml_file):
     ns = {
@@ -25,75 +75,32 @@ def parse_kml(kml_file):
     click.echo(f"Found {len(placemarks)} placemarks in {kml_file}")
 
     data = []
+
     for placemark in placemarks:
-        name = placemark.find("kml:name", ns)
-        name = name.text if name is not None else ""
+        name_el = placemark.find("kml:name", ns)
+        name = name_el.text if name_el is not None else ""
 
-        extended_data = {}
-        for data_el in placemark.findall(".//kml:ExtendedData/kml:Data", ns):
-            key = data_el.attrib.get("name")
-            value_el = data_el.find("kml:value", ns)
-            if key and value_el is not None:
-                extended_data[key] = value_el.text
+        extended_data = extract_extended_data(placemark, ns)
 
-        # Extract coordinates from Point element or ExtendedData
-        point = placemark.find(".//kml:Point/kml:coordinates", ns)
-        if point is not None:
-            lon, lat = point.text.strip().split(',')[:2]
-            # click.echo(f"Found coordinates in Point for placemark '{name}': lon={lon}, lat={lat}")
-        elif '經度' in extended_data and '緯度' in extended_data and extended_data['經度'] and extended_data['緯度']:
-            lon = extended_data['經度'].strip('\n ,')
-            lat = extended_data['緯度'].strip('\n ,')
-            # click.echo(f"Found coordinates in ExtendedData for placemark '{name}': lon={lon}, lat={lat}")
-        elif placemark.find("kml:description", ns) is not None:
+        lat, lon = parse_coordinates_from_point(placemark, ns)
+
+        if lat is None or lon is None:
+            lat, lon = parse_coordinates_from_extended_data(extended_data)
+
+        if lat is None or lon is None:
             desc_el = placemark.find("kml:description", ns)
-            if desc_el is not None and desc_el.text:
-                match = re.search(r"緯經度[^\d]*([\d.]+),([\d.]+)", desc_el.text)
-                if match:
-                    lat = match.group(1)
-                    lon = match.group(2)
-                ##  tyr 緯度: 24.877512<br>經度: 121.288436
-                elif '經度' in desc_el.text and '緯度' in desc_el.text:
-                    match = re.search(r"緯度[^\d]*([\d.]+)[^\d]*", desc_el.text)
-                    if match:
-                        lat = match.group(1)
-                    else:
-                        click.echo(f"Warning: no latitude found in desc_el for '{name}' in {kml_file}")
-                        continue
-                    match = re.search(r"經度[^\d]*([\d.]+)[^\d]*", desc_el.text)
-                    if match:
-                        lon = match.group(1)
-                    else:
-                        click.echo(f"Warning: no longitude found in desc_el for '{name}' in {kml_file}")
-                        continue
-                else:
-                    click.echo(f"Warning: {desc_el.text} not matched '{name}' in {kml_file}")
-                    continue
-            else:
-                click.echo(f"Warning: desc_el is None '{name}' in {kml_file}")
-                continue
-        else:
-            click.echo(f"Warning: no coordinates found for placemark '{name}' in {kml_file}")
+            description = desc_el.text if desc_el is not None else ""
+            lat, lon = parse_coordinates_from_description(description)
+
+        if lat is None or lon is None:
+            click.echo(f"Warning: no coordinates found for placemark '{extended_data.get('電腦編號', None) or extended_data}' in {kml_file}")
             continue
 
         try:
-            node = {
-                'lat': float(lat),
-                'lon': float(lon),
-                'tags': {
-                    'amenity': 'air_defense_shelter',
-                    'name': name,
-                    'address': extended_data.get('地址', '').strip('\n '),
-                    'under_floor': extended_data.get('地下樓層數', '').strip('\n '),
-                    'capacity': extended_data.get('可容納人數', '').strip('\n '),
-                }
-            }
+            node = build_node(lat, lon, name, extended_data)
             data.append(node)
         except ValueError as e:
-            click.echo(f"Warning: ValueError on placemark'{name}' in {kml_file}: {e}")
-            click.echo(f"  extended_data: '{extended_data}'")
-            click.echo(f"  coords: '{lat}, {lon}'")
-            continue
+            click.echo(f"Warning: ValueError on placemark '{extended_data.get('電腦編號', None) or extended_data}' in {kml_file}: {e}")
 
     click.echo(f"Extracted {len(data)} air defense shelter nodes from {kml_file}")
     return data
