@@ -224,23 +224,36 @@ def build_osm(nodes, start_id=-1000):
         # make mandatory amenity tag
         osm_node.append('<tag k="amenity" v="air_defense_shelter"/>')
         # make name tag as "id (capacity)"
-        name = f"{tags.get('id', '')}"
+        def compose_name():
+            value = tags.get('name')
+            if value and not is_float(value):
+                return value
+            return tags.get('id') or ''
+        name = compose_name()
         if tags.get('capacity'):
             name += f" ({tags['capacity']})"
         osm_node.append(f'<tag k="name" v="{escape(name)}"/>')
         # make zl tag depending on the capacity
         if tags.get('capacity'):
-            if tags['capacity'] > 500:
-                osm_node.append('<tag k="zl" v="0"/>')
-            elif tags['capacity'] > 100:
-                osm_node.append('<tag k="zl" v="1"/>')
+            if tags['capacity'] >= 5000:
+                osm_node.append('<tag k="cap" v="5000"/>')
+            elif tags['capacity'] >= 4000:
+                osm_node.append('<tag k="cap" v="4000"/>')
+            elif tags['capacity'] >= 3000:
+                osm_node.append('<tag k="cap" v="3000"/>')
+            elif tags['capacity'] >= 2000:
+                osm_node.append('<tag k="cap" v="2000"/>')
+            elif tags['capacity'] >= 1000:
+                osm_node.append('<tag k="cap" v="1000"/>')
+            elif tags['capacity'] >= 500:
+                osm_node.append('<tag k="cap" v="500"/>')
             else:
-                osm_node.append('<tag k="zl" v="2"/>')
+                osm_node.append('<tag k="cap" v="0"/>')
         else:
-            osm_node.append('<tag k="zl" v="2"/>')
+            osm_node.append('<tag k="cap" v="0"/>')
         # make ref as address
         if tags.get('address'):
-            osm_node.append(f'<tag k="ref" v="{escape(extract_house_number(tags["address"]))}"/>')
+            osm_node.append(f'<tag k="addr:housenumber" v="{escape(extract_house_number(tags["address"]))}"/>')
         osm_node.append('</node>')
 
         osm_body.append('\n'.join(osm_node))

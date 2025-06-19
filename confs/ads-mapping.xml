@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tag-mapping xmlns='http://mapsforge.org/tag-mapping' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://mapsforge.org/tag-mapping ../resources/tag-mapping.xsd' default-zoom-appear='16' profile-name='default-profile'>
 <pois>
-<osm-tag key='amenity' value='air_defense_shelter' zoom-appear='10' />
-<osm-tag key='zl' value='0' zoom-appear='10' />
-<osm-tag key='zl' value='1' zoom-appear='10' />
-<osm-tag key='zl' value='2' zoom-appear='10' />
+<osm-tag key='amenity' value='air_defense_shelter' zoom-appear='13' />
+<osm-tag key='cap' value='5000' zoom-appear='13' />
+<osm-tag key='cap' value='4000' zoom-appear='13' />
+<osm-tag key='cap' value='3000' zoom-appear='13' />
+<osm-tag key='cap' value='2000' zoom-appear='13' />
+<osm-tag key='cap' value='1000' zoom-appear='13' />
+<osm-tag key='cap' value='500' zoom-appear='13' />
+<osm-tag key='cap' value='0' zoom-appear='13' />
 </pois>
 </tag-mapping>
