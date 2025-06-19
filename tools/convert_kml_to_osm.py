@@ -48,6 +48,11 @@ def parse_coordinates_from_extended_data(extended_data):
         lon = extended_data["unnamed (8)"].strip("\n ,")
         lat = extended_data["unnamed (7)"].strip("\n ,")
         return lat, lon
+    
+    if "地址" in extended_data and extended_data["地址"] is not None:
+        coords = extended_data["地址"].strip("\n ,").split(",")
+        if len(coords) == 2 and is_float(coords[0]) and is_float(coords[1]):
+            return coords[0].strip(), coords[1].strip()
 
     return None, None
 
