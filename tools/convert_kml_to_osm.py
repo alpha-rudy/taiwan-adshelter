@@ -53,8 +53,8 @@ def parse_coordinates_from_description(description):
     if match:
         return match.group(1), match.group(2)
 
-    lat_match = re.search(r"緯度[^\d]*([\d.]+)", description)
-    lon_match = re.search(r"經度[^\d]*([\d.]+)", description)
+    lat_match = re.search(r"緯度[: ]*([\d.]+)", description)
+    lon_match = re.search(r"經度[: ]*([\d.]+)", description)
     if lat_match and lon_match:
         return lat_match.group(1), lon_match.group(1)
     
