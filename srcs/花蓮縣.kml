@@ -35303,39 +35303,6 @@
         </ExtendedData>
       </Placemark>
       <Placemark>
-        <name/>
-        <description><![CDATA[電腦編號: <br>村里別: <br>地址: <br>緯度: <br>經度: <br>避難樓層: <br>容量: <br>轄管分局: <br>備註: ]]></description>
-        <ExtendedData>
-          <Data name="電腦編號">
-            <value/>
-          </Data>
-          <Data name="村里別">
-            <value/>
-          </Data>
-          <Data name="地址">
-            <value/>
-          </Data>
-          <Data name="緯度">
-            <value/>
-          </Data>
-          <Data name="經度">
-            <value/>
-          </Data>
-          <Data name="避難樓層">
-            <value/>
-          </Data>
-          <Data name="容量">
-            <value/>
-          </Data>
-          <Data name="轄管分局">
-            <value/>
-          </Data>
-          <Data name="備註">
-            <value/>
-          </Data>
-        </ExtendedData>
-      </Placemark>
-      <Placemark>
         <name>私人住宅</name>
         <address>花蓮市順興路12之1號</address>
         <description><![CDATA[電腦編號: SMA09072<br>村里別: 民立里<br>地址: 花蓮市順興路12之1號<br>緯度: 23.992<br>經度: 121.628<br>避難樓層: B1<br>容量: 761<br>轄管分局: 花蓮分局<br>備註: ]]></description>
