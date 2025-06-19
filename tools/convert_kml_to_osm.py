@@ -27,6 +27,12 @@ def parse_coordinates_from_point(placemark, ns):
         return lat, lon
     return None, None
 
+def parse_addresss_from_point(placemark, ns):
+    address_el = placemark.find("kml:address", ns)
+    if address_el is not None and address_el.text:
+        return address_el.text.strip(' \n\r')
+    return None
+
 def parse_coordinates_from_extended_data(extended_data):
     if "經度" in extended_data and "緯度" in extended_data and extended_data["經度"] and extended_data["緯度"]:
         lon = extended_data["經度"].strip("\n ,")
@@ -45,6 +51,12 @@ def parse_coordinates_from_extended_data(extended_data):
 
     return None, None
 
+def parse_address_from_extended_data(extended_data):
+    if "地址" in extended_data and extended_data["地址"]:
+        return extended_data["地址"].strip("\n ")
+
+    return None
+
 def parse_coordinates_from_description(description):
     if not description:
         return None, None
@@ -62,8 +74,17 @@ def parse_coordinates_from_description(description):
     if match:
         return match.group(1), match.group(2)
     
-
     return None, None
+
+def parse_address_from_description(description):
+    if not description:
+        return None
+
+    address_match = re.search(r"地址[: ]*([^<\n]+)", description)
+    if address_match:
+        return address_match.group(1).strip(' \n')
+
+    return None
 
 def parse_lon_from_description(description):
     if not description:
@@ -113,9 +134,11 @@ def parse_kml(kml_file):
 
     for placemark in placemarks:
         name_el = placemark.find("kml:name", ns)
-        name = name_el.text if name_el is not None else ""
+        name = name_el.text.strip(' \n') if name_el and name_el.text is not None else ""
 
         extended_data = extract_extended_data(placemark, ns)
+        
+        address = parse_addresss_from_point(placemark, ns) or parse_address_from_extended_data(extended_data) or parse_address_from_description(placemark.find("kml:description", ns).text if placemark.find("kml:description", ns) is not None else "DNF")
 
         lat, lon = parse_coordinates_from_point(placemark, ns)
 
@@ -128,7 +151,7 @@ def parse_kml(kml_file):
             lat, lon = parse_coordinates_from_description(description)
         
         def friendly_name():
-            return extended_data.get('電腦編號', None) or extended_data or name
+            return address or extended_data.get('電腦編號', None) or extended_data or name
         
         if lat is None or lon is None:
             if is_float(name):
@@ -144,7 +167,6 @@ def parse_kml(kml_file):
         try:
             node = build_node(lat, lon, name, extended_data)
             data.append(node)
-            click.echo(f"Added node: {friendly_name()} at ({lat}, {lon})")
         except ValueError as e:
             click.echo(f"Warning: ValueError on placemark '{extended_data.get('電腦編號', None) or extended_data or name}' in {kml_file}: {e}")
 
