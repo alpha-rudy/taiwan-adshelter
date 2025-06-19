@@ -19,6 +19,10 @@ def is_float(s):
         return True
     except ValueError:
         return False
+    
+def single_line(s):
+    """Convert a string to a single line by removing newlines and excessive spaces."""
+    return ' '.join(s.split()).strip() if s else ''
 
 def parse_coordinates_from_point(placemark, ns):
     point = placemark.find(".//kml:Point/kml:coordinates", ns)
@@ -30,7 +34,7 @@ def parse_coordinates_from_point(placemark, ns):
 def parse_addresss_from_point(placemark, ns):
     address_el = placemark.find("kml:address", ns)
     if address_el is not None and address_el.text:
-        return address_el.text.strip(' \n\r')
+        return address_el.text.strip()
     return None
 
 def parse_coordinates_from_extended_data(extended_data):
@@ -40,15 +44,15 @@ def parse_coordinates_from_extended_data(extended_data):
         return lat, lon
     
     if "unnamed (6)" in extended_data and "unnamed (5)" in extended_data and extended_data["unnamed (6)"] and extended_data["unnamed (5)"] and is_float(extended_data["unnamed (6)"]) and is_float(extended_data["unnamed (5)"]):
-        lon = extended_data["unnamed (6)"].strip("\n ,")
-        lat = extended_data["unnamed (5)"].strip("\n ,")
+        lon = extended_data["unnamed (6)"].strip()
+        lat = extended_data["unnamed (5)"].strip()
         return lat, lon
 
     if "unnamed (8)" in extended_data and "unnamed (7)" in extended_data and extended_data["unnamed (8)"] and extended_data["unnamed (7)"] and is_float(extended_data["unnamed (8)"]) and is_float(extended_data["unnamed (7)"]):
-        lon = extended_data["unnamed (8)"].strip("\n ,")
-        lat = extended_data["unnamed (7)"].strip("\n ,")
+        lon = extended_data["unnamed (8)"].strip()
+        lat = extended_data["unnamed (7)"].strip()
         return lat, lon
-    
+
     if "地址" in extended_data and extended_data["地址"] is not None:
         coords = extended_data["地址"].strip("\n ,").split(",")
         if len(coords) == 2 and is_float(coords[0]) and is_float(coords[1]):
@@ -58,7 +62,7 @@ def parse_coordinates_from_extended_data(extended_data):
 
 def parse_address_from_extended_data(extended_data):
     if "地址" in extended_data and extended_data["地址"]:
-        return extended_data["地址"].strip("\n ")
+        return extended_data["地址"].strip()
 
     return None
 
@@ -75,7 +79,7 @@ def parse_coordinates_from_description(description):
     if lat_match and lon_match:
         return lat_match.group(1), lon_match.group(1)
     
-    match = re.search(r"備註[^\d]*([\d.]+),[^\d]*([\d.]+)[^\d]", description)
+    match = re.search(r"備註: ([\d.]+), ([\d.]+)", description)
     if match:
         return match.group(1), match.group(2)
     
@@ -87,7 +91,7 @@ def parse_address_from_description(description):
 
     address_match = re.search(r"地址[: ]*([^<\n]+)", description)
     if address_match:
-        return address_match.group(1).strip(' \n')
+        return address_match.group(1).strip()
 
     return None
 
@@ -95,7 +99,7 @@ def parse_lon_from_description(description):
     if not description:
         return None
 
-    lon_match = re.search(r"經度[^\d]*([\d.]+)", description)
+    lon_match = re.search(r"經度[: ]*([\d.]+)[^\d]", description)
     if lon_match:
         return lon_match.group(1)
 
@@ -116,10 +120,10 @@ def build_node(lat, lon, name, extended_data):
         "lon": float(lon),
         "tags": {
             "amenity": "air_defense_shelter",
-            "name": name,
-            "address": extended_data.get("地址", "").strip("\n "),
-            "under_floor": extended_data.get("地下樓層數", "").strip("\n "),
-            "capacity": extended_data.get("可容納人數", "").strip("\n "),
+            "name": single_line(name),
+            "address": single_line(extended_data.get("地址", "")),
+            "under_floor": single_line(extended_data.get("地下樓層數", "")),
+            "capacity": single_line(extended_data.get("可容納人數", "")),
         },
     }
 
@@ -139,7 +143,7 @@ def parse_kml(kml_file):
 
     for placemark in placemarks:
         name_el = placemark.find("kml:name", ns)
-        name = name_el.text.strip(' \n') if name_el and name_el.text is not None else ""
+        name = name_el.text.strip(' \n\r') if (name_el is not None and name_el.text is not None) else ""
 
         extended_data = extract_extended_data(placemark, ns)
         
@@ -179,9 +183,9 @@ def parse_kml(kml_file):
     return data
 
 
-def build_osm(nodes):
+def build_osm(nodes, start_id=-1000):
     osm_body = []
-    id_counter = -1000
+    id_counter = start_id
     for node in nodes:
         lat = node['lat']
         lon = node['lon']
@@ -212,7 +216,8 @@ def build_osm(nodes):
 @click.command()
 @click.argument('kml_dir', type=click.Path(exists=True, file_okay=False))
 @click.argument('osm_file', type=click.Path())
-def convert(kml_dir, osm_file):
+@click.option('--start-id', default=-1000, help='Starting ID for OSM nodes (default: -1000)')
+def convert(kml_dir, osm_file, start_id):
     """Convert all KML files in a directory to a single OSM file with air_defense_shelter amenity nodes."""
     all_nodes = []
     for filename in os.listdir(kml_dir):
@@ -222,7 +227,7 @@ def convert(kml_dir, osm_file):
             all_nodes.extend(nodes)
             click.echo(f"Parsed {len(nodes)} placemarks from {filename}")
 
-    osm_content = build_osm(all_nodes)
+    osm_content = build_osm(all_nodes, start_id)
     with open(osm_file, 'w', encoding='utf-8') as f:
         f.write(osm_content)
     click.echo(f"Converted total {len(all_nodes)} placemarks into {osm_file}")
