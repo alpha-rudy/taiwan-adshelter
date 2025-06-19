@@ -22,6 +22,8 @@ def is_float(s):
     
 def single_line(s):
     """Convert a string to a single line by removing newlines and excessive spaces."""
+    if s is None:
+        return None
     return ' '.join(s.split()).strip() if s else ''
 
 def parse_coordinates_from_point(placemark, ns):
@@ -114,16 +116,29 @@ def extract_extended_data(placemark, ns):
             data[key] = value_el.text
     return data
 
-def build_node(lat, lon, name, extended_data):
+def safe_int(s):
+    """Convert a string to an integer, returning None if conversion fails."""
+    if s is None:
+        return None
+    try:
+        s = s.replace(',', '').strip()
+        s = s.replace('人', '').strip()
+        return int(float(s))
+    except (ValueError, TypeError):
+        click.echo(f"Warning: could not convert '{s}' to int, returning None")
+        return None
+
+def build_node(lat, lon, name, address, extended_data):
     return {
         "lat": float(lat),
         "lon": float(lon),
         "tags": {
             "amenity": "air_defense_shelter",
             "name": single_line(name),
-            "address": single_line(extended_data.get("地址", "")),
-            "under_floor": single_line(extended_data.get("地下樓層數", "")),
-            "capacity": single_line(extended_data.get("可容納人數", "")),
+            "id": single_line(extended_data.get("電腦編號", None)),
+            "address": single_line(address),
+            "under_floor": single_line(extended_data.get("地下樓層數", None)),
+            "capacity": safe_int(extended_data.get("可容納人數", None)),
         },
     }
 
@@ -143,7 +158,7 @@ def parse_kml(kml_file):
 
     for placemark in placemarks:
         name_el = placemark.find("kml:name", ns)
-        name = name_el.text.strip(' \n\r') if (name_el is not None and name_el.text is not None) else ""
+        name = name_el.text.strip() if (name_el is not None and name_el.text is not None) else None
 
         extended_data = extract_extended_data(placemark, ns)
         
@@ -174,7 +189,7 @@ def parse_kml(kml_file):
             continue
 
         try:
-            node = build_node(lat, lon, name, extended_data)
+            node = build_node(lat, lon, name, address, extended_data)
             data.append(node)
         except ValueError as e:
             click.echo(f"Warning: ValueError on placemark '{extended_data.get('電腦編號', None) or extended_data or name}' in {kml_file}: {e}")
@@ -182,6 +197,9 @@ def parse_kml(kml_file):
     click.echo(f"Extracted {len(data)} air defense shelter nodes from {kml_file}")
     return data
 
+def extract_house_number(address: str) -> str:
+    match = re.search(r'\d+號', address)
+    return match.group() if match else ""
 
 def build_osm(nodes, start_id=-1000):
     osm_body = []
@@ -201,10 +219,28 @@ def build_osm(nodes, start_id=-1000):
                 lat, lon = lon, lat
                 click.echo(f"Switched coordinates: lat={lat}, lon={lon} for node({tags['name']}/{tags['address']})")
 
-        escaped_tags = {k: escape(v) for k, v in tags.items() if v}
-
+        # create OSM node
         osm_node = [f'<node id="{id_counter}" visible="true" lat="{lat}" lon="{lon}">']
-        osm_node.extend([f'<tag k="{k}" v="{v}"/>' for k, v in escaped_tags.items()])
+        # make mandatory amenity tag
+        osm_node.append('<tag k="amenity" v="air_defense_shelter"/>')
+        # make name tag as "id (capacity)"
+        name = f"{tags.get('id', '')}"
+        if tags.get('capacity'):
+            name += f" ({tags['capacity']})"
+        osm_node.append(f'<tag k="name" v="{escape(name)}"/>')
+        # make zl tag depending on the capacity
+        if tags.get('capacity'):
+            if tags['capacity'] > 500:
+                osm_node.append('<tag k="zl" v="0"/>')
+            elif tags['capacity'] > 100:
+                osm_node.append('<tag k="zl" v="1"/>')
+            else:
+                osm_node.append('<tag k="zl" v="2"/>')
+        else:
+            osm_node.append('<tag k="zl" v="2"/>')
+        # make ref as address
+        if tags.get('address'):
+            osm_node.append(f'<tag k="ref" v="{escape(extract_house_number(tags["address"]))}"/>')
         osm_node.append('</node>')
 
         osm_body.append('\n'.join(osm_node))
