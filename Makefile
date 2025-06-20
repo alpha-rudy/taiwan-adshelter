@@ -26,13 +26,13 @@ $(BUILD_DIR)/$(MAP_NAME).osm: tools/convert_kml_to_osm.py srcs/*.kml
 	mkdir -p $(BUILD_DIR)
 	python3 tools/convert_kml_to_osm.py --start-id -1000 srcs/ $(BUILD_DIR)/$(MAP_NAME).osm
 
-$(BUILD_DIR)/$(MAP_NAME)-ren.pbf: $(BUILD_DIR)/$(MAP_NAME).osm
+%-ren.pbf: %.osm
 	osmium renumber \
 		-s 20000000000,0,0 \
 		$< \
 		-Oo $@
 
-$(BUILD_DIR)/$(MAP_NAME).map: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
+%.map: %-ren.pbf
 	export JAVACMD_OPTIONS="$(JAVACMD_OPTIONS)" && \
 	sh $(OSMOSIS_CMD) \
 		--read-pbf "$<" \
@@ -49,5 +49,5 @@ $(BUILD_DIR)/$(MAP_NAME).map: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
 			comment="台灣防空避難處所 $(VERSION)" \
 			file="$@"
 
-$(BUILD_DIR)/$(MAP_NAME).map.zip: $(BUILD_DIR)/$(MAP_NAME).map
+%.map.zip: %.map
 	cd $(BUILD_DIR)/ && $(ZIP_CMD) $(shell basename $@) $(shell basename $<)
