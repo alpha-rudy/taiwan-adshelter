@@ -39,6 +39,13 @@ def parse_addresss_from_point(placemark, ns):
         return address_el.text.strip()
     return None
 
+def parse_description_from_point(placemark, ns):
+    description_el = placemark.find("kml:description", ns)
+    if description_el is not None and description_el.text:
+        # click.echo(f"Found description: {description_el.text.strip()}")
+        return description_el.text.strip()
+    return None
+
 def parse_coordinates_from_extended_data(extended_data):
     if "經度" in extended_data and "緯度" in extended_data and extended_data["經度"] and extended_data["緯度"]:
         lon = extended_data["經度"].strip("\n ,")
@@ -128,7 +135,7 @@ def safe_int(s):
         click.echo(f"Warning: could not convert '{s}' to int, returning None")
         return None
 
-def build_node(lat, lon, name, address, extended_data):
+def build_node(lat, lon, name, address, description, extended_data):
     return {
         "lat": float(lat),
         "lon": float(lon),
@@ -139,8 +146,13 @@ def build_node(lat, lon, name, address, extended_data):
             "address": single_line(address),
             "under_floor": single_line(extended_data.get("地下樓層數", None)),
             "capacity": safe_int(extended_data.get("可容納人數", None)),
+            "description": single_line(description)
         },
     }
+
+total_placemarks = 0
+kept_placemarks = 0
+kept_description = 0
 
 def parse_kml(kml_file):
     ns = {
@@ -156,14 +168,19 @@ def parse_kml(kml_file):
 
     data = []
 
+    global total_placemarks, kept_placemarks, kept_description
     for placemark in placemarks:
+        total_placemarks =  total_placemarks + 1
         name_el = placemark.find("kml:name", ns)
         name = name_el.text.strip() if (name_el is not None and name_el.text is not None) else None
 
         extended_data = extract_extended_data(placemark, ns)
-        
         address = parse_addresss_from_point(placemark, ns) or parse_address_from_extended_data(extended_data) or parse_address_from_description(placemark.find("kml:description", ns).text if placemark.find("kml:description", ns) is not None else "DNF")
+        description = parse_description_from_point(placemark, ns)
+        if description is not None:
+            kept_description += 1
 
+        # parse coordinates
         lat, lon = parse_coordinates_from_point(placemark, ns)
 
         if lat is None or lon is None:
@@ -189,8 +206,9 @@ def parse_kml(kml_file):
             continue
 
         try:
-            node = build_node(lat, lon, name, address, extended_data)
+            node = build_node(lat, lon, name, address, description, extended_data)
             data.append(node)
+            kept_placemarks += 1
         except ValueError as e:
             click.echo(f"Warning: ValueError on placemark '{extended_data.get('電腦編號', None) or extended_data or name}' in {kml_file}: {e}")
 
@@ -200,6 +218,22 @@ def parse_kml(kml_file):
 def extract_house_number(address: str) -> str:
     match = re.search(r'\d+號', address)
     return match.group() if match else ""
+
+def parse_description_string(info_str):
+    result = []
+    # Split by <br> to get each key-value pair
+    lines = info_str.strip().split("<br>")
+    for line in lines:
+        if not line.strip():
+            continue  # Skip empty lines
+        if ":" in line:
+            key, value = line.split(":", 1)  # Split only at the first ":"
+            key = key.strip()
+            # keep only Chinese characters in the key
+            key = re.sub(r'[^\u4e00-\u9fa5]', '', key)
+            value = value.strip()
+            result.append((f"{key}", value))
+    return result
 
 def build_osm(nodes, start_id=-1000):
     osm_body = []
@@ -251,9 +285,20 @@ def build_osm(nodes, start_id=-1000):
                 osm_node.append('<tag k="cap" v="0"/>')
         else:
             osm_node.append('<tag k="cap" v="0"/>')
-        # make ref as address
         if tags.get('address'):
             osm_node.append(f'<tag k="addr:housenumber" v="{escape(extract_house_number(tags["address"]))}"/>')
+        
+        description = tags.get('description')
+        if description:
+            pairs = parse_description_string(description)
+            for key, value in pairs:
+                if len(key) > 16:
+                    click.echo(f"Warning: key '{key}' is too long, skipping it")
+                    continue
+                if len(value) > 80:
+                    click.echo(f"Warning: value '{value}' is too long, skipping it")
+                    continue
+                osm_node.append(f'<tag k="desc:{escape(key)}" v="{escape(value)}"/>')
         osm_node.append('</node>')
 
         osm_body.append('\n'.join(osm_node))
@@ -280,7 +325,7 @@ def convert(kml_dir, osm_file, start_id):
     with open(osm_file, 'w', encoding='utf-8') as f:
         f.write(osm_content)
     click.echo(f"Converted total {len(all_nodes)} placemarks into {osm_file}")
-
+    click.echo(f"Total placemarks processed: {total_placemarks}, kept: {kept_placemarks}, descriptions kept: {kept_description}")
 
 if __name__ == '__main__':
     convert()

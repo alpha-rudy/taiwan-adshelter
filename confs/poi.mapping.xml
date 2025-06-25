@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" title="root"
+  xmlns="http://mapsforge.org/poi-mapping"
+  xsi:schemaLocation="http://mapsforge.org/poi-mapping https://raw.githubusercontent.com/mapsforge/mapsforge/dev/resources/poi-mapping.xsd">
+
+  <!-- ADShelter -->
+  <category title="防空避難所">
+      <mapping tag="amenity=air_defense_shelter" />
+  </category>
+</category>
