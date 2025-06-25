@@ -73,4 +73,4 @@ $(BUILD_DIR)/$(MAP_NAME).poi: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
 
 $(BUILD_DIR)/$(MAP_NAME).zip: $(BUILD_DIR)/$(MAP_NAME).map $(BUILD_DIR)/$(MAP_NAME).poi
 %.zip: %.map %.poi
-	cd $(BUILD_DIR)/ && $(ZIP_CMD) $(shell basename $@) $(shell basename $^)
+	cd $(BUILD_DIR)/ && $(ZIP_CMD) $(shell basename $@) $$(ls *.map *.poi)
