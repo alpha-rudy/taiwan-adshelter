@@ -298,7 +298,7 @@ def build_osm(nodes, start_id=-1000):
                 if len(value) > 80:
                     click.echo(f"Warning: value '{value}' is too long, skipping it")
                     continue
-                osm_node.append(f'<tag k="desc:{escape(key)}" v="{escape(value)}"/>')
+                osm_node.append(f'<tag k="{escape(key)}" v="{escape(value)}"/>')
         osm_node.append('</node>')
 
         osm_body.append('\n'.join(osm_node))
