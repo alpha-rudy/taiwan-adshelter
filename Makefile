@@ -16,22 +16,28 @@ VERSION := $(shell date +%Y.%m.%d)
 .SECONDARY:
 
 .PHONY: all
-all: $(BUILD_DIR)/$(MAP_NAME).map.zip
+all: $(BUILD_DIR)/$(MAP_NAME).zip
 
 .PHONY: clean
 clean:
 	rm -rf $(BUILD_DIR)
 
+.PHONY: osm
+osm: $(BUILD_DIR)/$(MAP_NAME).osm
 $(BUILD_DIR)/$(MAP_NAME).osm: tools/convert_kml_to_osm.py srcs/*.kml
 	mkdir -p $(BUILD_DIR)
 	python3 tools/convert_kml_to_osm.py --start-id -1000 srcs/ $(BUILD_DIR)/$(MAP_NAME).osm
 
+.PHONY: ren
+ren: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
 %-ren.pbf: %.osm
 	osmium renumber \
 		-s 20000000000,0,0 \
 		$< \
 		-Oo $@
 
+.PHONY: map
+map: $(BUILD_DIR)/$(MAP_NAME).map
 %.map: %-ren.pbf
 	export JAVACMD_OPTIONS="$(JAVACMD_OPTIONS)" && \
 	sh $(OSMOSIS_CMD) \
@@ -48,6 +54,23 @@ $(BUILD_DIR)/$(MAP_NAME).osm: tools/convert_kml_to_osm.py srcs/*.kml
 			map-start-zoom=12 \
 			comment="台灣防空避難處所 $(VERSION)" \
 			file="$@"
+.PHONY: poi
+poi: $(BUILD_DIR)/$(MAP_NAME).poi
+$(BUILD_DIR)/$(MAP_NAME).poi: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
+%.poi: %-ren.pbf
+	export JAVACMD_OPTIONS="-server" && \
+		sh $(OSMOSIS_CMD) \
+			--rb file="$<" \
+			--poi-writer \
+			all-tags=true \
+			geo-tags=true \
+			names=false \
+			bbox=$(TAIWAN_BBOX) \
+			ways=true \
+			tag-conf-file="confs/poi-mapping.xml" \
+			comment="台灣防空避難處所 $(VERSION)" \
+			file="$@"
 
-%.map.zip: %.map
-	cd $(BUILD_DIR)/ && $(ZIP_CMD) $(shell basename $@) $(shell basename $<)
+$(BUILD_DIR)/$(MAP_NAME).zip: $(BUILD_DIR)/$(MAP_NAME).map $(BUILD_DIR)/$(MAP_NAME).poi
+%.zip: %.map %.poi
+	cd $(BUILD_DIR)/ && $(ZIP_CMD) $(shell basename $@) $(shell basename $^)
