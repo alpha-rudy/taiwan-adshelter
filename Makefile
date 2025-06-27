@@ -68,9 +68,17 @@ $(BUILD_DIR)/$(MAP_NAME).poi: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
 			bbox=$(TAIWAN_BBOX) \
 			ways=true \
 			tag-conf-file="confs/poi-mapping.xml" \
-			comment="台灣防空避難處所 $(VERSION)" \
+			comment="台灣防空避難離線地圖 $(VERSION)" \
 			file="$@"
 
+.PHONY: zip
+zip: $(BUILD_DIR)/$(MAP_NAME).zip
 $(BUILD_DIR)/$(MAP_NAME).zip: $(BUILD_DIR)/$(MAP_NAME).map $(BUILD_DIR)/$(MAP_NAME).poi
 %.zip: %.map %.poi
 	cd $(BUILD_DIR)/ && $(ZIP_CMD) $(shell basename $@) $$(ls *.map *.poi)
+
+.PHONY: map.zip
+map.zip: $(BUILD_DIR)/$(MAP_NAME).map.zip
+$(BUILD_DIR)/$(MAP_NAME).map.zip: $(BUILD_DIR)/$(MAP_NAME).map
+%.map.zip: %.map
+	cd $(BUILD_DIR)/ && $(ZIP_CMD) $(shell basename $@) $$(ls *.map)
