@@ -18,3 +18,7 @@ This project converts the air defense shelters of the NPA from KML files (https:
 2. Replace the old KML files in `srcs/` with the new ones.
 3. Use `git diff` to revise the changes.
 4. Run `make` to generate the new OSM and Mapsforge files.
+
+## 資料來源
+
+* 內政部警政署防空避難專區 (https://adr.npa.gov.tw/)
