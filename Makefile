@@ -29,7 +29,14 @@ $(BUILD_DIR)/$(MAP_NAME).osm: tools/convert_kml_to_osm.py srcs/*.kml
 	python3 tools/convert_kml_to_osm.py --start-id -1000 srcs/ $(BUILD_DIR)/$(MAP_NAME).osm
 
 .PHONY: clusters
-clusters: $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z16.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z15.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z14.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z13.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z12.osm
+clusters: $(BUILD_DIR)/$(MAP_NAME)-clustered.pbf
+$(BUILD_DIR)/$(MAP_NAME)-clustered.pbf: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z16.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z15.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z14.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z13.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z12.osm
+	cp -a $(BUILD_DIR)/$(MAP_NAME)-ren.pbf $@
+	./tools/osmium-append.sh $@ $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z16.osm
+	./tools/osmium-append.sh $@ $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z15.osm
+	./tools/osmium-append.sh $@ $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z14.osm
+	./tools/osmium-append.sh $@ $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z13.osm
+	./tools/osmium-append.sh $@ $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z12.osm
 
 # Pattern rule for K-means clustering by zoom level
 # % matches the zoom level (12, 13, 14, 15, 16)
@@ -46,7 +53,7 @@ ren: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
 
 .PHONY: map
 map: $(BUILD_DIR)/$(MAP_NAME).map
-%.map: %-ren.pbf
+%.map: %-clustered.pbf
 	export JAVACMD_OPTIONS="$(JAVACMD_OPTIONS)" && \
 	sh $(OSMOSIS_CMD) \
 		--read-pbf "$<" \
@@ -62,6 +69,7 @@ map: $(BUILD_DIR)/$(MAP_NAME).map
 			map-start-zoom=12 \
 			comment="台灣防空避難處所 $(VERSION)" \
 			file="$@"
+
 .PHONY: poi
 poi: $(BUILD_DIR)/$(MAP_NAME).poi
 $(BUILD_DIR)/$(MAP_NAME).poi: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
