@@ -285,7 +285,7 @@ def generate_cluster_tags(cluster: Cluster, zoom_level: int) -> Dict[str, str]:
         'cluster:zoom_level': str(zoom_level),
         'cluster:node_count': str(cluster.node_count),
         'cluster:total_capacity': str(cluster.total_capacity),
-        'name': f'{cluster.node_count}/{cluster.total_capacity}'
+        'name': f'{cluster.node_count}'
     }
     
     # Add representative information from the largest shelter in the cluster
