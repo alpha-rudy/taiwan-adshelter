@@ -31,34 +31,10 @@ $(BUILD_DIR)/$(MAP_NAME).osm: tools/convert_kml_to_osm.py srcs/*.kml
 .PHONY: clusters
 clusters: $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z16.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z15.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z14.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z13.osm $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z12.osm
 
-# Individual rules for K-means clustering by zoom level
-.PHONY: kmeans
-kmeans: k16 k15 k14 k13 k12
-
-.PHONY: k16
-k16: $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z16.osm
-$(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z16.osm: $(BUILD_DIR)/$(MAP_NAME).osm tools/cluster_ads_kmeans.py
-	python3 tools/cluster_ads_kmeans.py $< --output-dir $(BUILD_DIR) --zoom-levels 16
-
-.PHONY: k15
-k15: $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z15.osm
-$(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z15.osm: $(BUILD_DIR)/$(MAP_NAME).osm tools/cluster_ads_kmeans.py
-	python3 tools/cluster_ads_kmeans.py $< --output-dir $(BUILD_DIR) --zoom-levels 15
-
-.PHONY: k14
-k14: $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z14.osm
-$(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z14.osm: $(BUILD_DIR)/$(MAP_NAME).osm tools/cluster_ads_kmeans.py
-	python3 tools/cluster_ads_kmeans.py $< --output-dir $(BUILD_DIR) --zoom-levels 14
-
-.PHONY: k13
-k13: $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z13.osm
-$(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z13.osm: $(BUILD_DIR)/$(MAP_NAME).osm tools/cluster_ads_kmeans.py
-	python3 tools/cluster_ads_kmeans.py $< --output-dir $(BUILD_DIR) --zoom-levels 13
-
-.PHONY: k12
-k12: $(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z12.osm
-$(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z12.osm: $(BUILD_DIR)/$(MAP_NAME).osm tools/cluster_ads_kmeans.py
-	python3 tools/cluster_ads_kmeans.py $< --output-dir $(BUILD_DIR) --zoom-levels 12
+# Pattern rule for K-means clustering by zoom level
+# % matches the zoom level (12, 13, 14, 15, 16)
+$(BUILD_DIR)/$(MAP_NAME)_KMEANS_Z%.osm: $(BUILD_DIR)/$(MAP_NAME).osm tools/cluster_ads_kmeans.py
+	python3 tools/cluster_ads_kmeans.py $< --output-dir $(BUILD_DIR) --zoom-levels $*
 
 .PHONY: ren
 ren: $(BUILD_DIR)/$(MAP_NAME)-ren.pbf
